@@ -1,4 +1,14 @@
 
+.main{
+    margin-left: 220px;
+    padding: 0px 10px;
+}
+h1{
+    font-weight: 900;
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 20px;
+ }
 .sidenav {
   height: 100%;
   width: 220px;
@@ -9,6 +19,7 @@
   background-color: #111;
   overflow-x: hidden;
   padding-top: 20px;
+  text-align: center;
 }
 .avatar img{
     width:150px;
