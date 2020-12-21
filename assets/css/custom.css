@@ -22,7 +22,7 @@ h1{
   left: 0;
   background-color: #111;
   overflow-x: hidden;
-  padding-top: 20px;
+  padding: 20px 10px;
   text-align: center;
 }
 .avatar img{
@@ -35,7 +35,6 @@ h1{
     font-weight: 700;
 }
 .sidenav .content{
-    padding: 5px;
     color: #fff;
 }
 .social-list {
