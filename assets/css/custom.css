@@ -61,7 +61,60 @@ h1{
     color: #fafafa;
 }
 .fa-twitter{
+
+
     color: #1da1f2;
+}
+
+
+.full_width{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+.text {
+    font-size: 70px;
+    font-family: 'Archivo Black', sans-serif;
+    width: 200px;
+    position: relative;
+    height: auto;
+}
+.text:before {
+    content: '';
+    position: absolute;
+    left: 36%;
+    top: 35%;
+    width: 20px;
+    height: 30px;
+    clip-path: polygon(100% 50%, 0 0, 0 100%);
+    background: #fd5b56;
+    animation: spinAndMoveArrow 2s infinite;
+}
+
+.text:after {
+    content: "If So";
+    word-spacing: 20px;
+}
+
+@keyframes spinAndMoveArrow {
+        40% {
+            transform: rotate(360deg);
+        }
+
+        60% {
+            transform: translateX(-5px);
+        }
+
+        80% {
+            transform: translateX(5px);
+        }
+
+        100% {
+            transform: translateX(0);
+        }
 }
 
 
