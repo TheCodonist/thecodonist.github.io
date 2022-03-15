@@ -26,11 +26,61 @@ h1{
   padding: 20px 10px;
   text-align: center;
 }
-.avatar img{
-    width:150px;
-    height: 150px;
-    border-radius: 50%;
+
+
+
+
+
+.avatar{
+    position: relative;
+    display: inline-block;
+    margin-top: 10vh;
+    margin-bottom: 0vh;
 }
+.avatar img{
+    border-radius: 50%;
+    max-height: 20vh;
+    height: auto;
+    max-width: 100%;
+}
+@-webkit-keyframes pulse {
+    0% {
+        opacity:1;
+    }
+    100% {
+        opacity:0;
+        -webkit-transform:scale(1.3)
+    }
+}
+@-moz-keyframes pulse {
+    0% {
+        opacity:1;
+    }
+    100% {
+        opacity:0;
+        -moz-transform:scale(1.3)
+    }
+}
+.pulse{
+    -webkit-animation-duration: 2s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-name: pulse;
+    -moz-animation-duration: 2s;
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-name: pulse;
+    border: 15px solid #30BDFF;
+    border-radius: 50%;
+    left: -15px;
+    overflow: hidden;
+    position: absolute;
+    top: -15px;
+    width: calc(100% + 30px);
+    height: calc(100% + 30px);
+}
+
+
+
+
 .sidenav h3{
    
     color: #fff;
