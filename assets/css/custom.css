@@ -68,7 +68,7 @@ h1{
     -moz-animation-duration: 2s;
     -moz-animation-iteration-count: infinite;
     -moz-animation-name: pulse;
-    border: 15px solid #30BDFF;
+    border: 8px solid #30BDFF;
     border-radius: 50%;
     left: -15px;
     overflow: hidden;
