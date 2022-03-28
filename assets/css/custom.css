@@ -62,7 +62,7 @@ h1{
     }
 }
 .pulse{
-    -webkit-animation-duration: 4s;
+    -webkit-animation-duration: 3s;
     -webkit-animation-iteration-count: infinite;
     -webkit-animation-name: pulse;
     -moz-animation-duration: 2s;
@@ -99,7 +99,7 @@ h1{
     }
 }
 .SecondPulse{
-    -webkit-animation-duration: 4s;
+    -webkit-animation-duration: 3s;
     -webkit-animation-iteration-count: infinite;
     -webkit-animation-name: SecondPulse;
     -moz-animation-duration: 2s;
@@ -113,7 +113,7 @@ h1{
     top: -15px;
     width: calc(100% + 30px);
     height: calc(100% + 30px);
-    animation-delay: 1.5s;
+    animation-delay: 1s;
 }
 
 
