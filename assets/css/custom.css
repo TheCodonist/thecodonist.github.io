@@ -62,13 +62,13 @@ h1{
     }
 }
 .pulse{
-    -webkit-animation-duration: 2s;
+    -webkit-animation-duration: 4s;
     -webkit-animation-iteration-count: infinite;
     -webkit-animation-name: pulse;
     -moz-animation-duration: 2s;
     -moz-animation-iteration-count: infinite;
     -moz-animation-name: pulse;
-    border: 8px solid #30BDFF;
+    border: 4px solid #30BDFF;
     border-radius: 50%;
     left: -15px;
     overflow: hidden;
@@ -76,6 +76,44 @@ h1{
     top: -15px;
     width: calc(100% + 30px);
     height: calc(100% + 30px);
+}
+
+
+
+@-webkit-keyframes SecondPulse {
+    0% {
+        opacity:1;
+    }
+    100% {
+        opacity:0;
+        -webkit-transform:scale(1.3)
+    }
+}
+@-moz-keyframes SecondPulse {
+    0% {
+        opacity:1;
+    }
+    100% {
+        opacity:0;
+        -moz-transform:scale(1.3)
+    }
+}
+.SecondPulse{
+    -webkit-animation-duration: 4s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-name: SecondPulse;
+    -moz-animation-duration: 2s;
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-name: SecondPulse;
+    border: 4px solid #30BDFF;
+    border-radius: 50%;
+    left: -15px;
+    overflow: hidden;
+    position: absolute;
+    top: -15px;
+    width: calc(100% + 30px);
+    height: calc(100% + 30px);
+    animation-delay: 1.5s;
 }
 
 
