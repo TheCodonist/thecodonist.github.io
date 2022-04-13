@@ -62,7 +62,7 @@ h1{
     }
 }
 .pulse{
-    -webkit-animation-duration: 3s;
+    -webkit-animation-duration: 4s;
     -webkit-animation-iteration-count: infinite;
     -webkit-animation-name: pulse;
     -moz-animation-duration: 2s;
@@ -70,12 +70,13 @@ h1{
     -moz-animation-name: pulse;
     border: 4px solid #30BDFF;
     border-radius: 50%;
-    left: -15px;
+    left: 0px;
     overflow: hidden;
     position: absolute;
-    top: -15px;
-    width: calc(100% + 30px);
-    height: calc(100% + 30px);
+    top: 0px;
+    width: calc(100% + 0px);
+    height: calc(100% + 0px);
+    z-index: -1;
 }
 
 
@@ -99,21 +100,22 @@ h1{
     }
 }
 .SecondPulse{
-    -webkit-animation-duration: 3s;
+    -webkit-animation-duration: 4s;
     -webkit-animation-iteration-count: infinite;
-    -webkit-animation-name: SecondPulse;
+    -webkit-animation-name: pulse;
     -moz-animation-duration: 2s;
     -moz-animation-iteration-count: infinite;
-    -moz-animation-name: SecondPulse;
+    -moz-animation-name: pulse;
     border: 4px solid #30BDFF;
     border-radius: 50%;
-    left: -15px;
+    left: 0px;
     overflow: hidden;
     position: absolute;
-    top: -15px;
-    width: calc(100% + 30px);
-    height: calc(100% + 30px);
-    animation-delay: 1s;
+    top: 0px;
+    width: calc(100% + 0px);
+    height: calc(100% + 0px);
+    z-index: -1;
+    animation-delay: 1.4s;
 }
 
 
