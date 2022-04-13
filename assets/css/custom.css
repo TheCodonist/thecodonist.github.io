@@ -49,7 +49,7 @@ h1{
     }
     100% {
         opacity:0;
-        -webkit-transform:scale(1.3)
+        -webkit-transform:scale(1.5)
     }
 }
 @-moz-keyframes pulse {
@@ -58,7 +58,7 @@ h1{
     }
     100% {
         opacity:0;
-        -moz-transform:scale(1.3)
+        -moz-transform:scale(1.5)
     }
 }
 .pulse{
@@ -87,7 +87,7 @@ h1{
     }
     100% {
         opacity:0;
-        -webkit-transform:scale(1.3)
+        -webkit-transform:scale(1.5)
     }
 }
 @-moz-keyframes SecondPulse {
@@ -96,7 +96,7 @@ h1{
     }
     100% {
         opacity:0;
-        -moz-transform:scale(1.3)
+        -moz-transform:scale(1.5)
     }
 }
 .SecondPulse{
