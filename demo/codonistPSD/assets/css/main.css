@@ -1,0 +1,557 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1{
+    font: 50px;
+    margin-bottom: 0;
+}
+h2{
+    font-size: 30px;
+}
+p{
+    margin-bottom: 0;
+}
+span{
+    display: inline-block;
+    font-size: 16px;
+}
+.display{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.top__header{
+    background: #677be7;
+    height: 40px;
+    padding: 0px 70px;
+    display: flex;
+    align-items: center;
+}
+.top__header span {
+    padding: 0px 27px;
+}
+.resonsive__menu {
+    display: flex;
+    width: 100%;
+}
+.menu{
+    display: flex;
+    width:100%;
+    justify-content:space-between;
+}
+
+.bottom__header{
+    background:#fff;
+}
+
+.navbar-collapse{
+    height:100%;
+}
+.bottom__header .navbar-brand {
+    width: 200px;
+    padding: 20px 9px;
+}
+.navbar-collapse .navbar-nav .nav-item {
+    margin-right: 40px;
+    padding-top: 28px;
+}
+
+.navbar-collapse .navbar-nav .nav-link{
+    color: #003569 !important;
+    font-size: 16px;
+    font-weight:700;
+}
+.navbar-nav{
+    margin-left: auto;
+}
+.adim__contact {
+    margin-left: auto;
+}
+.adim__contact p:nth-child(1){
+    font-size: 12px;
+    letter-spacing: 3px;
+    font-weight: 400;
+    color: #677be7;
+}
+.adim__contact p:nth-child(2){
+    font-size: 30px;
+    font-weight: 600;
+}
+
+
+
+
+
+
+/* cars brands */
+.cars__brands__title{
+  display: inline-block;
+
+}
+.cars__manufacture {
+    margin-left: auto;
+}
+.cars__manufacture p:nth-child(1){
+    font-size: 12px;
+    letter-spacing: 3px;
+    font-weight: 400;
+    color: #677be7;
+}
+.cars__manufacture p:nth-child(2){
+    font-size: 30px;
+    font-weight: 600;
+}
+.cars__company__logos {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin: 45px 0px;
+    border: top;
+    position: relative;
+}
+.cars__company__logos:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: lightgray;
+    width: 100%;
+    height: 1px;
+}
+.cars__company__logos:after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background: lightgray;
+    width: 100%;
+    height: 1px;
+}
+.company__logos{
+    width:20%;
+    padding:20px;
+}
+.company__logos img{
+object-fit: cover;
+}
+
+.cars__links {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.cars__links ul {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    list-style: none;
+    border-bottom: none;
+    
+}
+.cars__links li {
+    margin-right: 39px;
+    font-size: 17px;
+    font-weight: bold;
+}
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link{
+    color:black;
+}
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    color: #677be7;
+    background-color: #fff;
+    border-color: transparent;
+    border-bottom: 3px solid #677be7;
+}
+
+/* cars */
+.bg{
+    position: relative;
+    padding-top: 80px ;
+ 
+}
+.bg:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #677be7;
+    width: 100%;
+    height: 70%;
+    z-index: -2;
+}
+.mvp__cars {
+    display: flex;
+    padding: 80px 0px;
+}
+.mvp__cars img.img-fluid {
+    opacity: .8;
+    transform: scale(1);
+    transition: .5s;
+}
+.mvp__cars  img.img-fluid:hover {
+    opacity: 1;
+    transform: scale(1.2);
+}
+.car-text .car__title h1 {
+    font-size: 30px;
+    color: white;
+    position: relative;
+    padding-top: 10px;
+}
+.car-text .car__title h1:before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 30%;
+    height: 3px;
+    background: lightgray;
+    content: "";
+  
+}
+.car-text .car__title p{
+    font-size: 20px;
+    font-weight: 100;
+    color: white;
+
+}
+.car__description {
+    margin-top: 30px;
+    color: white;
+
+}
+.car__description h1 {
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+
+}
+.car-text  .car__colors {
+    display:flex;
+    justify-content:flex-end
+}
+.car__colors{
+    color:white !important;
+    font-weight: 500;
+}
+.car-text  .car__colors span {
+    border-radius: 50%;
+    display: block;
+    width: 25px;
+    height: 25px;
+    background: green;
+    margin-left: 20px;
+
+}
+.car-text  .car__colors span:nth-child(3){
+    background:red;
+}
+.car-text  .car__colors span:nth-child(4){
+    background:black;
+}
+.car-text  .car__colors span:nth-child(5){
+    background:blue;
+}
+.car-text  .car__colors span:nth-child(6){
+    background:purple;
+}
+.car-text  .car__colors span:nth-child(7){
+    background:goldenrod;
+}
+.car-text  .cars {
+    margin-top: 29px;
+}
+.vedio__title h1{
+    font-size: 30px;
+    font-weight: 600;
+}
+.vedio__tumbnail {
+    height: 386px;
+}
+.vedio__tumbnail img{
+    height:100%;
+}
+
+.specefication__title h1{
+    font-size:30px;
+    font-weight: 600;
+
+}
+.accordion-item button {
+    background: #ebebeb;
+}
+.accordion-item {
+    background-color: #fff;
+    border: none;
+}
+.accordion-button:focus {
+    z-index: 3;
+    border: none !important;
+    border-color: transparent;
+    outline: none !important;
+    box-shadow: 0 0 0 0.25rem rgb(13 110 253 / 25%);
+}
+.accordion-button:not(.collapsed) {
+    color: #0c63e4;
+    background-color: #677be7;
+    box-shadow: none;
+}
+.accordion-button.button__1::after {
+    background-image: url(../img/cars-logos/tabs-regtangle-1.png);
+    transform: rotate(0deg);
+    width: 2.25rem;
+    height: 2.25rem;
+    background-size: 2rem;
+}
+.accordion-button.button__1:not(.collapsed)::after {
+    background-image: url(../img/cars-logos/tabs-regtangle-1.png);
+    transform: rotate(0deg);
+    width: 2.25rem;
+    height: 2.25rem;
+    background-size: 2rem;
+}
+.accordion-button.button__2::after {
+    background-image: url(../img/cars-logos/tabs-rengtangle-2.png);
+    transform: rotate(0deg);
+    width: 2.25rem;
+    height: 2.25rem;
+    background-size: 2rem;
+}
+.accordion-button.button__2:not(.collapsed)::after {
+    background-image: url(../img/cars-logos/tabs-rengtangle-2.png);
+    transform: rotate(0deg);
+    width: 2.25rem;
+    height: 2.25rem;
+    background-size: 2rem;
+}
+.accordion-button.button__3::after {
+    background-image: url(../img/cars-logos/tabs-regtangle-3.png);
+    transform: rotate(0deg);
+    width: 2.25rem;
+    height: 2.25rem;
+    background-size: 2rem;
+}
+.accordion-button.button__3:not(.collapsed)::after {
+    background-image: url(../img/cars-logos/tabs-regtangle-3.png);
+    transform: rotate(0deg);
+    width: 2.25rem;
+    height: 2.25rem;
+    background-size: 2rem;
+}
+.nav {
+    justify-content: space-around;
+    border-bottom: none !important;
+}
+.form__section{
+    background:#677be7;
+    padding: 30px;
+}
+.intrest__form input {
+    border-radius: 50px;
+    background: transparent;
+}
+.intrest__form input::placeholder{
+    color: white;
+}
+.intrest__form a {
+    background: white;
+    width: 100%;
+    border-radius: 50px;
+}
+/* instagram */
+.instagram{
+display:flex;
+flex-direction: column;
+align-items: center;
+}
+.instagram__post {
+    height: 225px;
+}
+.instagram__post img{
+    height:100%;
+    width: 100%;
+}
+.instagram h1{
+  letter-spacing: 4px;
+  font-size: 15px;
+}
+.instagram__icon p{
+    font-size: 15px;
+    font-weight:600;
+}
+.instagram__icon {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.insta__icon i {
+    font-size: 30px;
+    margin-right: 16px;
+}
+/* foter */
+.footer__section {
+    padding: 10px;
+}
+.footer__section .footer__logo {
+    width: 70%;
+    margin-bottom: 41px;
+}
+.footer__section .adim__contact p:nth-child(2){
+    font-size:23px !important;
+
+}
+.footer__section .logo__text h2 {
+    font-size: 17px;
+    font-weight: bold;
+    margin-top: 43px;
+}
+.footer__section .logo__text ul li a{
+color:black;
+}
+.bottom__footer {
+    border-top: 1px solid lightgray;
+    margin-top: 10px;
+    padding: 20px 0px;
+    /* text-align: center; */
+}
+
+
+.accordion-header > button:before {
+    float: right !important;
+    font-family: FontAwesome;
+    content:"-";
+    padding-right: 5px;
+    font-size: 30px;
+    margin-right: 12px;
+}
+.accordion-header > button.collapsed:before {
+    float: right !important;
+    content: "+";
+    font-size: 40px;
+    margin-right: 12px;
+}
+
+
+.accordion-header> button:hover, 
+.accordion-header > button:active, 
+.accordion-header > button:focus  {
+    text-decoration:none;
+}
+
+
+
+
+/* // Medium devices (tablets, 768px and up) */
+@media (max-width: 768px) { 
+    .top__header {
+        padding: 0px 0px;
+    }
+    .top__header span {
+      font-size:11px;
+    }
+    div#navbarSupportedContent {
+        position: fixed;
+        top: 0;
+        left: -100%;
+        z-index: 8;
+        width: 100%;
+        height: 100vh;
+        transition: .5s;
+
+        
+    }
+    .menu {
+        display:unset;
+        width: 70%;
+        background: #003569 !important;
+        height: 100vh;
+        padding: 10px 25px;
+    }
+    .colse__btn {
+        width: 30%;
+        height:100vh;
+    }
+    .colse__btn  button{
+        width: 100%;
+        height:100%;
+    }
+    .display{
+        display:unset;
+    }
+    .resonsive__menu {
+        display: flex;
+    }
+    .show{
+        left:0 !important;
+    }
+    .responive__logo{
+        display:flex;
+        justify-content: space-between;
+        align-items: center;
+        
+    }
+    .responive__logo button{
+        height:40px;
+        border: 1px solid white !important;
+    }
+    .responive__logo button span {
+        display: block;
+        width: 20px;
+        height:20px;
+        height: 3px;
+        background: white;
+        margin-top: -2px;
+        
+    }
+    .responive__logo button span:nth-child(1){
+        transform: rotate(45deg);
+    }
+    .responive__logo button span:nth-child(2){
+        transform: rotate(-45deg);
+    }
+    .navbar-collapse .navbar-nav .nav-link {
+        color: white !important;
+    }
+    .adim__contact p {
+        color: white !important;
+       
+    }
+    .adim__contact p:nth-child(1) {
+        padding-top: 20px;
+    }
+    .adim__contact p:nth-child(2) {
+        font-size:20px;
+    }
+    .car-text {
+        margin-top: 46px;
+    }
+    .bg:before {
+        height: 100%;
+    }
+    .car-text .car__colors span {
+        margin-left: 14px;
+    }
+    .cars__links li {
+        margin-right: 7px;
+        font-size: 12px;
+    }
+    .mvp__cars {
+        padding: 25px 0px;
+    }
+    .bg {
+        padding-top: 0px;
+    }
+    .footer__section .logo__text h2 {
+        margin-top: 0px;
+    }
+    .footer__ p{
+        color: black !important;
+    }
+    
+    .tab-container-one .nav-tabs .nav-item {
+        font-size: 11px;
+    }
+    
+}
