@@ -18,10 +18,10 @@ jQuery(document).ready(function($){
     //         }
     //     }
     // });
-    $('.owl-carousel').owlCarousel({
+    $('.owl-carousel-hero').owlCarousel({
         loop:true,
         margin:10,
-        nav:true,
+        nav:false,
         autoplay:true,
         dots:false,
         responsive:{
@@ -35,6 +35,58 @@ jQuery(document).ready(function($){
                 items:1
             }
         }
-    })
+    });
 
+
+    $('.owl-brand').owlCarousel({
+        loop:true,
+        margin:10,
+        nav:false,
+        autoplay:true,
+        items:4,
+        dots:false,
+        responsive:{
+            0:{
+                items:1
+            },
+            600:{
+                items:3
+            },
+            1000:{
+                items:4
+            }
+        }
+    });
+    $('.cars__colors').owlCarousel({
+        loop:true,
+        margin:10,
+        nav:false,
+        autoplay:false,
+        dots:true,
+        responsive:{
+            0:{
+                items:1
+            },
+            600:{
+                items:1
+            },
+            1000:{
+                items:1
+            }
+        }
+    });
+
+
+
+
+
+
+    $(function() {
+        $('.nav-tabs .nav-link').click(function() {
+            $('#carouselSection').hide();
+            $(".tab-content").removeClass("tabs__show");
+        });                        
+    });
+    
+  
 });// End of document ready function
