@@ -90,3 +90,7 @@ jQuery(document).ready(function($){
     
   
 });// End of document ready function
+const lightbox = GLightbox({
+    touchNavigation: true,
+    loop: true,
+});

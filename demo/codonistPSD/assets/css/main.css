@@ -13,15 +13,12 @@ h2{
 }
 p{
     margin-bottom: 0;
-    font-weight: 600;
+    font-weight: 400;
 }
 span{
     display: inline-block;
     font-size: 16px;
     font-weight: 500;
-}
-.navbar-collapse .navbar-nav .nav-link {
-    font-family: 600 !important;
 }
 .display{
     display:flex;
@@ -39,6 +36,7 @@ span{
     padding: 0px 27px;
     font-size: 17px;
     color: #fff;
+    font-weight: 400;
 }
 .resonsive__menu {
     display: flex;
@@ -54,7 +52,7 @@ span{
     background:#fff;
 }
 .navbar {
-    height:195px;
+    height: 147px;
 }
 
 .navbar-collapse{
@@ -71,7 +69,8 @@ span{
 
 .navbar-collapse .navbar-nav .nav-link {
     color: #003569 !important;
-    font-size: 25.7px;
+    font-size: 19.7px;
+    font-weight: 400;
 }
 .navbar-nav{
     margin-left: auto;
@@ -84,7 +83,7 @@ span{
 }
 .adim__contact p:nth-child(2){
     font-size: 29px;
-    font-weight: 600;
+    font-weight: 400;
 }
 
 
@@ -105,11 +104,11 @@ span{
     font-size: 15px;
     letter-spacing: 3px;
     font-weight: 400;
-    color: #677be7;
+    color: #212121;
 }
 .cars__manufacture p:nth-child(2){
     font-size: 37px;
-    font-weight: 600;
+    font-weight: 400;
 }
 .cars__company__logos {
     display: flex;
@@ -149,7 +148,6 @@ span{
     display: flex;
     justify-content: center;
     width: 100%;
-    padding-top: 63px;
 }
 .cars__links ul {
     display: flex;
@@ -157,17 +155,15 @@ span{
     width: 100%;
     list-style: none;
     border-bottom: none;
+    padding: 63px 0 ;
     
-}
-.cars__links li {
-    margin-right: 39px;
-    font-size: 17px;
-    font-weight: bold;
 }
 .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link {
     color: black;
     font-size: 25px;
-    font-weight: 500;
+    font-weight: 400;
+    padding: 0;
+    margin-right: 79px;
 }
 .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
     color: #677be7;
@@ -182,7 +178,7 @@ span{
 }
 
 /* cars */
-.brands {
+.colors__section {
     margin-top: 120px;
     position: relative;
 }
@@ -198,7 +194,7 @@ span{
     border-radius: 50%;
 }
 .owl-dots {
-    top: -70px;
+    top: -100px;
     position: absolute;
     left: 30%;
 }
@@ -224,7 +220,7 @@ span{
 }
 .available {
     position: absolute;
-    top: -71px;
+    top: -100px;
     left: -2px;
     color: white;
     font-weight: 800;
@@ -242,32 +238,55 @@ span{
 }
 .mvp__cars {
     display: flex;
-    padding: 80px 0px;
+    padding: 0px 0px 80px 0px;
 }
-.mvp__cars img.img-fluid {
+
+.mvp__cars img {
     opacity: .4;
     transform: scale(1);
     transition: .5s;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
 }
+
 .mvp__cars  img.img-fluid:hover {
+    opacity: 1;
+    transform: scale(1.3);
+}
+
+.owl-brand img {
+    opacity: .4;
+    transform: scale(1);
+    transition: .5s;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.owl-brand  img:hover {
     opacity: 1;
     transform: scale(1.2);
 }
+.brands .owl-stage{
+    padding:25px 0px;
+}
 .mvp__car {
     padding: 10px 20px;
+    width: 25%;
 }
 .car-text .car__title h1 {
     font-size: 37px;
     color: white;
     position: relative;
     padding-top: 10px;
-    font-weight: 600;
+    font-weight: 400;
 }
 .car-text .car__title h1:before {
     position: absolute;
     top: 0;
     left: 0;
-    width: 30%;
+    width: 22%;
     height: 3px;
     background: lightgray;
     content: "";
@@ -275,7 +294,7 @@ span{
 }
 .car-text .car__title p{
     font-size: 27px;
-    font-weight: 100;
+    font-weight: 400;
     color: white;
 
 }
@@ -286,7 +305,7 @@ span{
 }
 .car__description h1 {
     font-size: 18px;
-    font-weight: bold;
+    font-weight: 400;
     color: white;
     padding: 14px 0px;
 }
@@ -317,8 +336,8 @@ span{
 }
 .vedio__title h1 {
     font-size: 31px;
-    font-weight: 600;
-    margin-bottom: 40px;
+    font-weight: 400;
+    margin-bottom: 57px;
 }
 .vedio__tumbnail {
     height: 386px;
@@ -329,25 +348,23 @@ span{
 .specefication__title {
     margin: 80px 0px;
 }
-.intrest__form_title h1{
-    font-size: 38px;
-    font-weight: 600;
-    color: white;
-    padding: 50px 0px;
-}
 .specefication__title h1{
+    font-size:31px;
+    font-weight: 400;
+}
+.specefication__title p{
     font-size:25px;
-    font-weight: 600;
+    font-weight: 400;
 }
 .specefication__tabs h1 {
-    font-weight: 600;
+    font-weight: 400;
     font-size: 29px;
     padding: 50px 0px;
 }
 .accordion-item button {
     background: #ebebeb;
     font-size: 25px;
-    font-weight: 600;
+    font-weight: 400;
 }
 .accordion-item {
     background-color: #fff;
@@ -389,10 +406,18 @@ button.accordion-button img {
     width: 32px;
     height: auto;
 }
+.accordion__body__text .nav-item{
+    margin-bottom: 55px;
+}
+.accordion__body__text p{
+    font-size:27px;
+    font-weight: 400;
+    color: #535353;
+   
+}
 .nav {
-    justify-content: space-between;
     border-bottom: none !important;
-    width:80%;
+    width:90%;
 }
 .form__section{
     background:#677be7;
@@ -434,12 +459,13 @@ align-items: center;
     height: 35px;
     border-radius: 50%;
     margin-right: 15px;
+    margin-top: 45px;
 }
 .intrest__form_title h1 {
     font-size: 38px;
-    font-weight: 600;
+    font-weight: 400;
     color: white;
-    padding: 50px 0px;
+    padding: 75px 0px 31px 0px;
 }
 .instagram__post {
     height: 225px;
@@ -454,16 +480,22 @@ align-items: center;
 }
 .instagram__icon p{
     font-size: 17px;
-    font-weight:600;
+    font-weight:400;
 }
 .instagram__icon {
     justify-content: center;
     align-items: center;
     display: flex;
 }
-.insta__icon i {
-    font-size: 30px;
-    margin-right: 16px;
+.insta__icon {
+    width: 40px;
+    height: 40px;
+    margin-right: 19px;
+}
+.insta__icon img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
 }
 .form-control:focus {
     color: #212529;
@@ -482,13 +514,17 @@ align-items: center;
     width: 70%;
     margin-bottom: 41px;
 }
+.footer__logo .footer__logo p{
+   color:  #464646;
+}
 .footer__section .logo__text h2 {
     font-size: 19px;
-    font-weight: 600;
-    margin-top: 43px;
+    font-weight: 400;
+    margin-top: 65px;
+   
 }
 .footer__section .logo__text ul li a{
-color:black;
+color:#535353;
 }
 .footer__section .logo__text ul li a i{
     color:#86b7fe;
@@ -500,6 +536,10 @@ color:black;
     margin-top: 10px;
     padding: 20px 0px;
     /* text-align: center; */
+}
+.bottom__footer{
+    color: #535353;
+    font-size: 14px;
 }
 
 
@@ -679,6 +719,9 @@ color:black;
     .cars__links {
         padding-top: 35px;
     }
+    .cars__links ul {
+        padding: 0px 0;
+    }
     .brands {
         margin-top: 100px;
     }
@@ -686,21 +729,39 @@ color:black;
         margin: 30px 0px;
     }
    
-    
+    .owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev, .owl-carousel button.owl-dot {
+        width: 25px;
+        height: 25px;
+        margin-left: 12px;
+    }
     .nav {
         width: 100%;
     }    
     .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link {
-        font-size: 16px;
-        padding: 5px;
+        font-size: 4;
+        padding: 0px;
+        margin-right: 12px;
+    }
+    .owl-dots {
+        top: -96px;
+        left: 38%;
+    }
+    .owl-stage {
+        padding: 0px 0px;
+    }
+    .vedio__title h1 {
+        margin-bottom: 24px;
+        margin-top: 30px;
     }
     .specefication__tabs h1 {
         font-size: 26px;
         padding: 35px 0px;
     }
-    .intrest__form_title h1 {
+    .specefication__title h1 {
         font-size: 28px;
-        padding: 30px 0px;
+    }
+    .intrest__form_title h1 {
+        font-size: 26px;
     }
     .intrest__form input {
         margin-bottom: 17px;
@@ -713,4 +774,22 @@ color:black;
         font-size: 11px;
     }
     
+}
+
+
+.splide__slide img {
+    width: 100%;
+    height: auto;
+}
+.splide__slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.splide__slide {
+    opacity: 0.6;
+}
+
+.splide__slide.is-active {
+    opacity: 1;
 }
