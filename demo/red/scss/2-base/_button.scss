@@ -1,0 +1,61 @@
+
+
+
+/* 1.5 Buttons */
+
+
+
+.btn{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 0.85em;
+    letter-spacing: 0.1em;
+    line-height: 1;
+    position: relative;
+    display: inline-block;
+    background:#cc4277;
+    border:2px solid #cc4277;
+    padding:1.4em 3.5em 1.4em;
+    border-radius: 0;
+    text-decoration: none;
+    color:#fff;
+    text-transform: uppercase;
+    -webkit-transition: background-color .3s ease-out;
+         -o-transition: background-color .3s ease-out;
+            transition: background-color .3s ease-out;
+  }
+  
+  .btn .fa{
+    font-size: 1.3em;
+    margin-right: 5px;
+    color: #fff;
+  }
+  
+  .btn:focus{
+    outline: none!important;
+    -webkit-box-shadow:none;
+    box-shadow: none;
+  }
+  
+  .btn:hover,
+  .btn:focus{
+    border-color:#cc4277;
+    background-color:transparent;
+    color: #cc4277;
+  }
+  
+  .btn-b-primary{
+    border-color:#cc4277;
+    color: #cc4277;
+    background-color:transparent;
+  }
+  
+  .btn-b-primary:hover{
+    background:#cc4277;
+    color: #fff;
+  }
+  
+  .btn-b-white{
+    border-color:#fff;
+    background-color:transparent;
+  }
