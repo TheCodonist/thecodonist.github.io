@@ -1,0 +1,40 @@
+
+
+
+/* 7.1 Owl carousel */
+
+
+
+.owl-controls {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    margin-top: 2em;
+    .owl-pagination{
+        text-align: center;
+      }
+      .owl-page{
+        display: inline-block;
+        margin:0 0.6em;
+        span{
+            display: inline-block;
+            width: 0.7em;
+            height: 0.7em;
+            border-radius: 50%;
+            background-color: #e5e5e5;
+            -webkit-transition: .2s linear;
+                 -o-transition: .2s linear;
+                    transition: .2s linear;
+          }
+          &:hover{
+            span{
+                background-color:#cc4277;
+            }
+          }
+      }
+      .active{
+        span{
+            background-color:#cc4277;
+        }
+      }
+  }

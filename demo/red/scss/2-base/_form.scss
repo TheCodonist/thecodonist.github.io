@@ -1,0 +1,72 @@
+
+
+
+/* 1.4 Fields */
+
+
+
+.form-control,
+textarea.form-control{
+  font-size: 1em;
+  color: #9F9F9F;
+  border-radius: 0;
+  padding: 1.4em 1.4em 1em;
+  border-width: 0  0 1px 0;
+  height: auto;
+  -webkit-box-shadow:none;
+          box-shadow:none;
+  -webkit-transition: all .15s;
+       -o-transition: all .15s;
+          transition: all .15s;
+}
+
+.form-control:focus {
+  border-color: #cc4277;
+  outline: 0;
+  -webkit-box-shadow:none;
+          box-shadow:none;
+}
+
+
+textarea.form-control{
+  padding-top: 1em;
+  height: 7em;
+  resize:none;
+}
+
+.form-control::-moz-placeholder {
+  color: #9F9F9F;
+  opacity: 1;
+}
+
+.form-control:-ms-input-placeholder {
+  color: #9F9F9F;
+}
+
+.form-control::-webkit-input-placeholder {
+  color: #9F9F9F
+}
+
+.form-control.error{
+  border-color: #cc4277;
+}
+
+.input-group-btn{
+  font-size: inherit;
+}
+
+.wobble-error{
+  -webkit-animation: hvr-wobble-horizontal 1s ease-in-out 0s 1 normal;
+           animation: hvr-wobble-horizontal 1s ease-in-out 0s 1 normal;
+}
+
+
+label.error{
+  font-family: 'Montserrat', sans-serif;
+  display: block;
+  text-align: left;
+  font-size: 0.8em;
+  font-weight: 400;
+  margin:10px 20px 0;
+  color: #cc4277;
+}

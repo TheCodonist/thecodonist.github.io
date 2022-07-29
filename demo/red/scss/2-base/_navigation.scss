@@ -1,0 +1,74 @@
+
+
+/* 2.2 Navigation */
+
+
+
+.navbar-nav{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.8em;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    padding-top: 0.7em;
+    margin:0;
+    li{
+        position: relative;
+        margin-top: 0;
+        -webkit-perspective: 2000px;
+        perspective: 2000px;
+        border-bottom: 1px solid rgba(255,255,255,0.05);
+        &:hover{
+            z-index: 1;
+          }
+          &:hover > ul{
+            opacity: 1;
+            -webkit-transform: rotateY(0);
+            -ms-transform: rotateY(0);
+            -o-transform: rotateY(0);
+            transform: rotateY(0);
+          }
+        a{
+            color: #fff;
+            text-decoration: none;
+            padding:12px 20px;
+            -webkit-transition:background-color 0.3s;
+            -o-transition:background-color 0.3s;
+            transition:background-color 0.3s;
+            &:hover,
+            &:focus,
+            .active > a{
+                background-color: transparent;
+            }
+          }
+          ul{
+            font-size: 14px;
+          }
+          li{
+            border-bottom: 1px solid rgba(255,255,255,0.05);
+            &:last-child{
+                border-bottom: 0;
+              }
+              a{
+                display: block;
+                padding: 15px 20px;
+                color: #adadad;
+                .fa{
+                    margin-right: 10px;
+                  }
+              }
+          }
+      }
+      .active > a{
+        background-color: transparent;
+    }
+    > li{
+        a:hover{
+           background-color: #cc4277;
+        }
+    }
+    > .active{
+        > a{
+            background-color: #cc4277;
+        }
+    }
+  }
