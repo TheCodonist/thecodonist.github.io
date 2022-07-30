@@ -8,7 +8,7 @@
 .form-control,
 textarea.form-control{
   font-size: 1em;
-  color: #9F9F9F;
+  color: $nefarious-blue;
   border-radius: 0;
   padding: 1.4em 1.4em 1em;
   border-width: 0  0 1px 0;
@@ -21,7 +21,7 @@ textarea.form-control{
 }
 
 .form-control:focus {
-  border-color: #cc4277;
+  border-color: $brands-color;
   outline: 0;
   -webkit-box-shadow:none;
           box-shadow:none;
@@ -35,20 +35,20 @@ textarea.form-control{
 }
 
 .form-control::-moz-placeholder {
-  color: #9F9F9F;
+  color: $nefarious-blue;
   opacity: 1;
 }
 
 .form-control:-ms-input-placeholder {
-  color: #9F9F9F;
+  color: $nefarious-blue;
 }
 
 .form-control::-webkit-input-placeholder {
-  color: #9F9F9F
+  color: $nefarious-blue;
 }
 
 .form-control.error{
-  border-color: #cc4277;
+  border-color: $brands-color;
 }
 
 .input-group-btn{
@@ -62,11 +62,11 @@ textarea.form-control{
 
 
 label.error{
-  font-family: 'Montserrat', sans-serif;
+  font-family: $main-font-family;
   display: block;
   text-align: left;
   font-size: 0.8em;
   font-weight: 400;
   margin:10px 20px 0;
-  color: #cc4277;
+  color: $brands-color;
 }

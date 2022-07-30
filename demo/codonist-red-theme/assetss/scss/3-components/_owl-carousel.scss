@@ -28,13 +28,13 @@
           }
           &:hover{
             span{
-                background-color:#cc4277;
+                background-color: $brands-color;
             }
           }
       }
       .active{
         span{
-            background-color:#cc4277;
+            background-color: $brands-color;
         }
       }
   }

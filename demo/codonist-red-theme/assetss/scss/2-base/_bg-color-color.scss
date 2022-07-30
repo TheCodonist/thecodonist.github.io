@@ -6,7 +6,7 @@
 
 
 .text-white{
-    color:#fff;
+    color: $white;
   }
   
   .text-opacity{
@@ -14,11 +14,11 @@
   }
   
   .text-dark{
-    color:#343434;
+    color:$dugong;
   }
   
   .text-primary{
-    color:#cc4277;
+    color: $brands-color;
   }
   
   
@@ -28,17 +28,17 @@
   
   
   .bgc-white{
-    background-color: #fff;
+    background-color: $white;
   }
   
   .bgc-light{
-    background-color: #f7f7f7;
+    background-color: $winter-haven;
   }
   
   .bgc-dark{
-    background-color: #282828;
+    background-color: $stieglitz-silver;
   }
   
   .bgc-primary{
-    background-color:#cc4277;
+    background-color: $brands-color;
   }

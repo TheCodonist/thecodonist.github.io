@@ -5,7 +5,7 @@
 
 
 .navbar-nav{
-    font-family: 'Montserrat', sans-serif;
+    font-family: $main-font-family;
     font-size: 0.8em;
     letter-spacing: 0.1em;
     text-transform: uppercase;
@@ -28,7 +28,7 @@
             transform: rotateY(0);
           }
         a{
-            color: #fff;
+            color: $white;
             text-decoration: none;
             padding:12px 20px;
             -webkit-transition:background-color 0.3s;
@@ -63,12 +63,12 @@
     }
     > li{
         a:hover{
-           background-color: #cc4277;
+           background-color: $brands-color;
         }
     }
     > .active{
         > a{
-            background-color: #cc4277;
+            background-color: $brands-color;
         }
     }
   }

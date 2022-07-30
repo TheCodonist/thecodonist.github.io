@@ -10,23 +10,23 @@
     margin-top: 4em;
     .progress{
         overflow: visible;
-        height: 0.5em;
+        height: 0.3em;
         margin-bottom: 2.7em;
         border-radius: 0;
         .progress-bar-title{
-            font-family: 'Montserrat', sans-serif;
+            font-family: $main-font-family;
             font-weight: 700;
             font-size: 0.7em;
             letter-spacing: 0.05em;
             text-transform: uppercase;
-            color: #141414;
+            color: $progrees-bar-color;
             margin-bottom: 0.5em;
           }
           .progress-bar{
-            font-family: 'Montserrat', sans-serif;
+            font-family: $main-font-family;
             position: relative;
-            background-color: #cc4277;
-            color: #343434;
+            background-color: $brands-color;
+            color: $dugong;
             span {
                 position: absolute;
                 top: -30px;

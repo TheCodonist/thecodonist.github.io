@@ -31,7 +31,7 @@
 
 	$(window).load(function(){
 
-		$('.loader').fadeOut();
+		$('.loader').fadeOut(3000);
 
     	var wow = new WOW({
 		    offset: 150,          

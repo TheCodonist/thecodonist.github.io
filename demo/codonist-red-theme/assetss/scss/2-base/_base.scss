@@ -40,18 +40,38 @@ p {
 .h1,
 h1 {
   font-size: $header1;
+  font-family: $main-font-family;
+  font-weight: 700;
+  line-height: 1.2;
+  margin:0 0 0.3em;
 }
 .h2,
 h2 {
   font-size: $header2;
+  font-family: $main-font-family;
+  position: relative;
+  line-height: 1.4;
+  font-weight: 700;
+  color: $dugong;
 }
 .h3,
 h3 {
   font-size: $header3;
+  font-family: $main-font-family;
+  line-height: 1.25;
+  font-weight: 700;
+  color: $dugong;
+  margin-top: 1.6em;
+  margin-bottom: 0.8em;
 }
 .h4,
 h4 {
   font-size: $header4;
+  font-family: $main-font-family;
+  line-height:1.4;
+  font-weight: 700;
+  color: $dugong;
+  margin:0;
 }
 .p,
 p {
@@ -91,7 +111,7 @@ p{
 }
 
 a {
-  color:#cc4277;
+  color:$brands-color;
   -webkit-transition: color .3s ease-out;
        -o-transition: color .3s ease-out;
           transition: color .3s ease-out;
@@ -99,7 +119,7 @@ a {
 
 a:hover,
 a:focus {
-  color:#cc4277;
+  color:$brands-color;
   outline: none;
 }
 

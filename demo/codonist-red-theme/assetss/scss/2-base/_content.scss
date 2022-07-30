@@ -11,18 +11,12 @@
   }
   
   .row-columns{
-    margin-top: -4em;
     width: 100%;
       flex-wrap: wrap;
   }
   
   .column{
-    margin-top: 4em;
-  }
-  
-  .row-padding{
-    margin-left: -2em;
-    margin-right: -2em;
+    margin-top: 1em;
   }
   
   .col-padding{
@@ -31,15 +25,11 @@
   }
   
   .section{
-    padding: 7em 0;
+    padding: 3em 0;
   }
   
   .section-sm{
-    padding: 4em 0;
-  }
-  
-  .section-body{
-    margin-top: 6.5em;
+    padding: 2em 0;
   }
   
   .section-body-sm{
@@ -82,3 +72,6 @@
   .mobile *{
     background-attachment: scroll!important;
   }
+  #reviews {
+    margin-bottom: 2em;
+}

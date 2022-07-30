@@ -19,7 +19,7 @@
     width: 100%;
     max-width: 687px;
     margin: auto;
-    background-color: #fff;
+    background-color: $white;
   }
   &-header {
     padding: 30px 35px;
@@ -39,7 +39,7 @@
       &:hover {
         background: $primary-color;
         i {
-          color: white;
+          color: $white;
         }
       }
     }

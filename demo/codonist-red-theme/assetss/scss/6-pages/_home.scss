@@ -71,11 +71,11 @@ html{
 }
 
 body{
-  font-family: 'Roboto', sans-serif;
+  font-family: $main-font-family;
   font-size: 1em;
   font-weight: 400;
   line-height: 1.62;
-  color:#767676;
+  color:$quail-valley;
 }
 
 ::-webkit-scrollbar{
@@ -85,22 +85,22 @@ body{
 
 ::-webkit-scrollbar-thumb {
   cursor: pointer;
-  background: #cc4277;
+  background: $brands-color;
 }
 
 ::selection{
-  background-color:#cc4277;
-  color:#fff;
+  background-color: $brands-color;
+  color: $white;
 }
 
 -webkit-::selection{
-    background-color:#cc4277;
-    color:#fff;
+    background-color: $brands-color;
+    color: $white;
 }
 
 ::-moz-selection{
-    background-color:#cc4277;
-    color:#fff;
+    background-color: $brands-color;
+    color: $white;
 }
 
 
@@ -117,8 +117,8 @@ body{
   top: 0;
   width: 100%;
   height: 100%;
-  background:#fff;
-  color:#fff;
+  background: $white;
+  color: $white;
   text-align: center;
   .spinner {
     position: absolute;
@@ -135,17 +135,17 @@ body{
         width: 100%;
         height: 100%;
         border-radius: 50%;
-        background-color: #cc4277;
+        background-color: $brands-color;
         opacity: 0.6;
         position: absolute;
         top: 0;
         left: 0;
-        -webkit-animation: sk-bounce 2.0s infinite ease-in-out;
-        animation: sk-bounce 2.0s infinite ease-in-out;
+        -webkit-animation: sk-bounce 5.0s infinite ease-in-out;
+        animation: sk-bounce 5.0s infinite ease-in-out;
       }
       .double-bounce2 {
-        -webkit-animation-delay: -1.0s;
-        animation-delay: -1.0s;
+        -webkit-animation-delay: -3.0s;
+        animation-delay: -3.0s;
       }
   }
 }
@@ -165,47 +165,6 @@ body{
   }
 }
 
-
-/* 1.3 Typography */
-
-
-
-h1,
-.h1{ 
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 700;
-  line-height: 1.2;
-  margin:0 0 0.3em;
-}
-
-h2,
-.h2{ 
-  font-family: 'Montserrat', sans-serif;
-  position: relative;
-  line-height: 1.4;
-  font-weight: 700;
-  color: #343434;
-  margin-bottom: 0.5em;
-}
-
-h3,
-.h3{
-  font-family: 'Montserrat', sans-serif;
-  line-height: 1.25;
-  font-weight: 700;
-  color:#343434;
-  margin-top: 1.6em;
-  margin-bottom: 0.8em;
-}
-
-h4,
-.h4{
-  font-family: 'Montserrat', sans-serif;
-  line-height:1.4;
-  font-weight: 700;
-  color:#343434;
-  margin:0;
-}
 /* 2.1 Brand */
 
 
@@ -247,7 +206,7 @@ h4,
 .opener{
   display: table-cell;
   vertical-align: middle;
-  color:#fff;
+  color: $white;
   padding: 10em 0 7em;
   width: 100000px;
   height: 100vh;
@@ -259,9 +218,9 @@ h4,
 
 .masthead .btn:hover,
 .masthead .btn:focus{
-  border-color: #fff;
+  border-color: $white;
   background-color: transparent;
-  color: #fff;
+  color: $white;
 }
 /* ------------------------------------------------------------------------------- */
 /*  5. Services
@@ -303,7 +262,12 @@ h4,
 /* ------------------------------------------------------------------------------- */
 /*  11. Responsive styles
 /* ------------------------------------------------------------------------------- */
-
+.partner-1 {
+  margin-top: 40px;
+}
+.partner-2 {
+  margin-top: 7px;
+}
 
 
 /* 11.1 Min width 768px */
@@ -378,7 +342,7 @@ h4,
   .navbar-nav li a{
     position: relative;
     padding:0;
-    color:#fff;
+    color: $white;
   }
 
   .navbar-nav li a:hover,
@@ -386,7 +350,7 @@ h4,
   .navbar-nav .active > a,
   .navbar-nav .active > a:hover{
     background-color: transparent;
-    color: #cc4277;
+    color: $brands-color;
   }
 
   /* Footer */
@@ -405,14 +369,14 @@ img.img-circle {
   width: 100px;
 }
 .our-skills .skills-bar img{
-  width: 65px;
+  width: 55px;
+  background: transparent;
 }
 .our-skills .section-skills-bar{
   display: flex;
   margin-bottom: 30px;
 }
 .our-skills .progress{
-  margin: 10px 0 0 0;
   width: 85%;
 }
 .progress-bar-text {
@@ -420,7 +384,8 @@ img.img-circle {
   margin-left: 15px;
 }
 .our-skills .progress-bar-title {
-  margin-bottom: 0;
+  margin-bottom: 7px;
+    font-size: 16px;
 }
 .our-skills h2{
   text-align: center;
@@ -429,6 +394,6 @@ img.img-responsive.center-block {
   width: 120px;
 }
 img.img-responsive.center-block.center-block-02 {
-  width: 180px;
+  width: 110px;
   margin-top: 15px;
 }

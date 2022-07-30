@@ -55,7 +55,7 @@ body{
                 display: inline-block;
                 font-weight: 100;
                 line-height: 1;
-                color:#9F9F9F;
+                color: $nefarious-blue;
                 text-align: center;
                 text-shadow: none; 
                 cursor: pointer;
@@ -66,12 +66,12 @@ body{
                      -o-transition: all 0.2s linear;
                         transition: all 0.2s linear;
                 &:hover{
-                    color: #cc4277;
+                    color: $brands-color;
                     opacity:1;
                     filter: alpha(opacity=1);
                 }
                 &:focus {
-                    color: #cc4277;
+                    color: $brands-color;
                     opacity:1;
                     filter: alpha(opacity=1);
                   }
