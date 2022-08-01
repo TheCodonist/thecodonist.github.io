@@ -29,16 +29,39 @@
 
 
 
-	$(window).load(function(){
+	// $(window).load(function(){
+		
 
-		$('.loader').fadeOut(3000);
+	// 	$('.loaders').fadeOut(8000);
 
-    	var wow = new WOW({
-		    offset: 150,          
-		    mobile: false
-		  }
-		);
-		wow.init();
+	// 	var typed = new Typed('.type', {
+	// 		strings: [
+	// 		'{{}}',
+	// 		 '{{code}}',
+	// 		 '{{codonist}}'
+	// 		],
+	// 		typeSpeed: 60,
+	// 		backSpeed: 60,
+	// 		loop: true,
+	// 	  });
+	// });
+
+	$(window).load(function() {
+		$(".loaders").delay(5000).fadeOut("500");
+	
+		//The last parameter is the callback that is fired after the animation
+		// $('.content').delay(2500).animate({opacity: '1'}, 500, MyFunction);
+
+		var typed = new Typed('.type', {
+			strings: [
+			'{{ }}',
+			 '{{ code }}',
+			 '{{ codonist }}'
+			],
+			typeSpeed: 60,
+			backSpeed: 60,
+			loop: false,
+		  });
 	});
 
 	var navbar=$('.js-navbar-affix');
@@ -306,3 +329,4 @@
 		});
 	}
 })(jQuery);
+

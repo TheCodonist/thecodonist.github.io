@@ -977,7 +977,7 @@ body {
 }
 
 /* 1.2 Loader */
-.loader {
+.loaders {
   position: fixed;
   overflow: hidden;
   z-index: 100;
@@ -989,33 +989,16 @@ body {
   color: #fff;
   text-align: center;
 }
-.loader .spinner {
-  position: absolute;
+.loaders h2 span {
+  color: #000;
+  position: fixed;
   top: 50%;
-  left: 50%;
-  width: 50px;
-  height: 50px;
-  -webkit-transform: translate(-50%, -50%);
-  -moz-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  -o-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-}
-.loader .spinner .double-bounce1, .loader .spinner .double-bounce2 {
-  width: 100%;
-  height: 100%;
-  border-radius: 50%;
-  background-color: #cc4277;
-  opacity: 0.6;
-  position: absolute;
-  top: 0;
-  left: 0;
-  -webkit-animation: sk-bounce 5s infinite ease-in-out;
-  animation: sk-bounce 5s infinite ease-in-out;
-}
-.loader .spinner .double-bounce2 {
-  -webkit-animation-delay: -3s;
-  animation-delay: -3s;
+  left: 57%;
+  z-index: 200;
+  font-size: 50px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  transform: translate(-100%, -100%);
 }
 
 @-webkit-keyframes sk-bounce {
