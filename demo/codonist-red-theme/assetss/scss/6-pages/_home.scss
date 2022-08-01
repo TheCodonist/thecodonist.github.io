@@ -127,10 +127,11 @@ body{
       top: 50%;
       left: 57%;
       z-index: 200;
-      font-size: 50px;
-      font-family: $secondary-font-family;
-      font-weight: 900;
+      font-size: 10vh;
+      font-family: "Lato", "Helvetica", "Arial", "sans";
+      font-weight: 700;
       transform: translate(-100%,-100%);
+      text-transform: uppercase;
     }
   }
 }
