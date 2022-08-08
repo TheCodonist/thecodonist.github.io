@@ -20,26 +20,6 @@ jQuery(document).ready( function ($) {
 		 });
 	 	angle -= step;
 	});
-            
-  	// $('.itemDot').click(function() {
-	// 	var dataTab= $(this).data("tab");
-    // 	$('.itemDot').removeClass('active');
-	// 	$(this).removeClass('active');
-	// 	$('.CirItem').removeClass('active');
-	// 	$( '.CirItem'- dataTab).removeClass('active');
-		
-	// 	i=dataTab;
-		   
-	// 	$('.dotCircle').css({
-	// 		"transform":"rotate("+(360-(i-1)*0)+"deg)",
-	// 		"transition":"1s"
-	// 	});
-	// 	$('.itemDot').css({
-	// 		"transform":"rotate("+((i-1)*0)+"deg)",
-	// 		"transition":"1s"
-	// 	});
-	// });
-            
     setInterval(function() {
 		var dataTab= $('.itemDot.active');
 		if(dataTab>6||i>6){
