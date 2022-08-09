@@ -989,17 +989,25 @@ body {
   color: #fff;
   text-align: center;
 }
-.loaders h2 span {
+.loaders h2 {
   color: #000;
   position: fixed;
+  width: 100%;
+  text-align: center;
   top: 50%;
-  left: 65%;
+  left: 50%;
   z-index: 200;
   font-size: 10vh;
-  font-family: "Lato", "Helvetica", "Arial", "sans";
   font-weight: 700;
-  transform: translate(-100%, -100%);
+  transform: translate(-50%, -50%);
   text-transform: uppercase;
+  padding: 0;
+  margin: 0;
+}
+.loaders h2 span {
+  font-family: "Courier New", Courier, monospace;
+  font-style: none;
+  letter-spacing: -21px;
 }
 
 @-webkit-keyframes sk-bounce {
