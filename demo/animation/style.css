@@ -2,11 +2,10 @@
     width: 100%;
     height: 100%;
     position: absolute;
-    margin: auto;
-    top: 120px;
-    left: 21px;
-    bottom: 0;
+    top: 55px;
+  
     z-index: 20;
+    
 }
 .dotCircle .itemDot {
     display: block;
@@ -16,26 +15,18 @@
     background: #000000;  
     border-radius: 50%;
     z-index: 3;
-}
-.dotCircle .itemDot {
     box-shadow: 10px -2px 20px #c0bebe;
 }
-.dotCircle .itemDot:hover, .dotCircle .itemDot.active {
+.dotCircle .itemDot.active {
     color:black;
-    transition: 0.5s;
     background: -webkit-linear-gradient(left, #7d4ac7 0%, #a733bb 100%);
 }
 
 .contentCircle {
-    position: relative;
-    top: 50px;
-    left: 50%;
-    transform: translate(-50%, -16%);
+   
+   
     height: 300px;
-    width: 300px;
-}
-.contentCircle h4{
-    margin-top: 85px;
+   
 }
 .contentCircle .CirItem {
     position: absolute;
@@ -52,7 +43,7 @@
     z-index: 1;
     opacity: 1;
     transform: scale(1);
-    transition: 0.5s;
+    
 }
 .contentCircle .CirItem img{
     width: 340px;
@@ -60,4 +51,7 @@
     border-radius: 50%;
     border: 2px solid black;
     padding: 30px;
+}
+.contentCircle h4{
+    margin-top: 85px;
 }

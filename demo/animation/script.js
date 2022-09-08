@@ -1,8 +1,6 @@
 jQuery(document).ready( function ($) {
-
-	// For Home Page
 	let i=1;
-	var radius = 200;
+	let p=1;
 	var fields = $('.itemDot');
 	var container = $('.dotCircle');
 	var width = container.width();
@@ -10,6 +8,7 @@ jQuery(document).ready( function ($) {
 	 
 	var height = container.height();
 	var angle = -360, step = (2*Math.PI) / fields.length;
+	
 	fields.each(function() {
 		var x = Math.round(width/2 + radius * Math.cos(angle) - $(this).width()/2);
 	 	var y = Math.round(height/2 + radius * Math.sin(angle) - $(this).height()/2);
@@ -20,25 +19,37 @@ jQuery(document).ready( function ($) {
 		 });
 	 	angle -= step;
 	});
-    setInterval(function() {
-		var dataTab= $('.itemDot.active');
-		if(dataTab>6||i>6){
-			dataTab=1;
-			i=1;
-		}
-		$('.itemDot').removeClass('active');
-		$('[data-tab="'+i+'"]').addClass('active');
-		$('.CirItem').removeClass('active');
-		$( '.CirItem'+i).addClass('active');
-		i++;
+    var a;
 
-		$('.dotCircle').css({
-			"transform":"rotate("+((i+5.8)*60)+"deg)",
-			"transition":"1s"
-		});
-		$('.itemDot').css({
-			"transform":"rotate("-((i+5.8)*60)+"deg)",
-			"transition":"1s"
-		});
-	}, 5000); 
+	function start(){
+		a = setInterval(function() {
+		
+			if( i>6){i=1;}
+			$('.itemDot').removeClass('active');
+			$('[data-tab="'+i+'"]').addClass('active');
+			$('.CirItem').removeClass('active');
+			$( '.CirItem'+i).addClass('active');
+	
+			$('.dotCircle').css({
+				"transform":"rotate("+((p+.7)*60)+"deg)",
+				"transition":"1s"
+			});
+			p++;
+			i++;
+			
+		}, 1000);
+
+	}
+
+	$( ".dotCircle" ).mouseenter(function() {
+		clearInterval(a);
+		console.log('enter')
+});
+
+$( ".dotCircle" ).mouseleave(function() {
+	start();
+	console.log('leave');
+});
+
+start();
   });
