@@ -109,40 +109,67 @@ body{
 
 
 
-.loaders{
+// .loaders{
+//   position: fixed;
+//   overflow: hidden;
+//   z-index: 100;
+//   left: 0;
+//   top: 0;
+//   width: 100%;
+//   height: 100%;
+//   background: $white;
+//   color: $white;
+//   text-align: center;
+//   h2{
+//     color: #000;
+//       position: fixed;
+//       width: 100%;
+//       text-align: center;
+//       top: 50%;
+//       left: 50%;
+//       z-index: 200;
+//       font-size: 10vh;
+//       font-weight: 700;
+//       transform: translate(-50%,-50%);
+//       text-transform: uppercase;
+//       padding: 0;
+//       margin: 0;
+//       span{
+//         font-family: 'Courier New', Courier, monospace;
+//         font-style: none !important;
+//         letter-spacing: -21px;
+//         display: inline-block;
+//       }
+//   }
+// }
+
+.loader {
   position: fixed;
-  overflow: hidden;
-  z-index: 100;
-  left: 0;
-  top: 0;
   width: 100%;
   height: 100%;
-  background: $white;
-  color: $white;
-  text-align: center;
-  h2{
+  left: 0;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  z-index: 1040;
+  h1 {
+    font-size: 10vh;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 700;
     color: #000;
-      position: fixed;
-      width: 100%;
-      text-align: center;
-      top: 50%;
-      left: 50%;
-      z-index: 200;
-      font-size: 10vh;
-      font-weight: 700;
-      transform: translate(-50%,-50%);
-      text-transform: uppercase;
-      padding: 0;
-      margin: 0;
-      span{
-        font-family: 'Courier New', Courier, monospace;
-        font-style: none;
-        letter-spacing: -21px;
-      }
+    em {
+      font-family: 'Courier New', Courier, monospace;
+      font-style: normal;
   }
 }
-
-
+.c-braces {
+  letter-spacing: -21px;
+  vertical-align: middle;
+}
+}
 
 
 @-webkit-keyframes sk-bounce {
@@ -367,6 +394,9 @@ img.img-circle {
   width: 55px;
   background: transparent;
 }
+.skills-bar h3{
+  margin-bottom: 40px;
+}
 .our-skills .section-skills-bar{
   display: flex;
   margin-bottom: 30px;
@@ -391,4 +421,100 @@ img.img-responsive.center-block {
 img.img-responsive.center-block.center-block-02 {
   width: 110px;
   margin-top: 15px;
+}
+.progress-bar-01{
+  transition: width .5s ease;
+}
+.progress-bar-02{
+  transition: width 1s ease;
+}
+.progress-bar-03{
+  transition: width 1.5s ease;
+}
+.progress-bar-04{
+  transition: width 2s ease;
+}
+.progress-bar-05{
+  transition: width 2.5s ease;
+}
+.progress-bar-06{
+  transition: width 3s ease;
+}
+.progress-bar-07{
+  transition: width .5s ease;
+}
+.progress-bar-08{
+  transition: width 1s ease;
+}
+.progress-bar-09{
+  transition: width 1.5s ease;
+}
+.progress-bar-10{
+  transition: width 2s ease;
+}
+.progress-bar-11{
+  transition: width 2.5s ease;
+}
+.progress-bar-12{
+  transition: width 3s ease;
+}
+.progress-bar-13{
+  transition: width .5s ease;
+}
+.progress-bar-14{
+  transition: width 1s ease;
+}
+.progress-bar-15{
+  transition: width 1.5s ease;
+}
+.progress-bar-16{
+  transition: width 2s ease;
+}
+.progress-bar-17{
+  transition: width 2.5s ease;
+}
+.progress-bar-18{
+  transition: width 3s ease;
+}
+.progress-bar-19{
+  transition: width .5s ease;
+}
+.progress-bar-20{
+  transition: width 1s ease;
+}
+.progress-bar-21{
+  transition: width 1.5s ease;
+}
+.progress-bar-22{
+  transition: width 2s ease;
+}
+.progress-bar-23{
+  transition: width 2.5s ease;
+}
+.progress-bar-24{
+  transition: width 3s ease;
+}
+.progress-bar-25{
+  transition: width .5s ease;
+}
+.progress-bar-26{
+  transition: width 1s ease;
+}
+.progress-bar-27{
+  transition: width 1.5s ease;
+}
+.progress-bar-28{
+  transition: width 2s ease;
+}
+.progress-bar-29{
+  transition: width 2.5s ease;
+}
+.progress-bar-30{
+  transition: width 3s ease;
+}
+.progress-bar-31{
+  transition: width .5s ease;
+}
+.progress-bar-32{
+  transition: width 1.5s ease;
 }

@@ -40,6 +40,11 @@
       .navbar-collapse{
         border-top: 0;
         box-shadow: none;
+        ul{
+          li{
+            font-size: 17px;
+          }
+        }
       }
   }
 

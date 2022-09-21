@@ -7,6 +7,23 @@
 	  Detect mobile device 
 	-------------------------------------------------------------------------------*/
 
+	$(document).ready(function() {
+		$(window).scroll(function() {
+				  if ($(document).scrollTop() > 700) {
+		  $(".image").addClass("show");
+		} else {
+		  $(".image").removeClass("show");
+		}
+	  });
+	  $(window).scroll(function() {
+		if ($(document).scrollTop() > 700) {
+		  $(".container").addClass("running");
+		} else {
+		  $(".container").removeClass("running");
+		}
+	  });
+		
+	});
 
 
 	var mobileDevice = false; 
@@ -27,47 +44,40 @@
 	  Window load
 	-------------------------------------------------------------------------------*/
 
-
-
-	// $(window).load(function(){
-		
-
-	// 	$('.loaders').fadeOut(8000);
-
-	// 	var typed = new Typed('.type', {
-	// 		strings: [
-	// 		'{{}}',
-	// 		 '{{code}}',
-	// 		 '{{codonist}}'
-	// 		],
-	// 		typeSpeed: 60,
-	// 		backSpeed: 60,
-	// 		loop: true,
-	// 	  });
-	// });
-
-	$(window).load(function() {
-		$(".loaders").delay(5000).fadeOut("500");
 	
-		//The last parameter is the callback that is fired after the animation
-		// $('.content').delay(2500).animate({opacity: '1'}, 500, MyFunction);
+	var instance = new TypeIt('#codeit', {
+		speed: 150,
+		startDelay: 900,
+		loop: true,
+		// afterComplete: (instance) => {
+		//     //-- Will fire after the entire instance has completed typing.
+		//     //-- NOTE: If "loop" is enabled, this will never fire.
 
-		var typed = new Typed('.type', {
-			strings: [
-			'{{ }}',
-			 '{{ code }}',
-			 '{{ codonist }}'
-			],
-			typeSpeed: 60,
-			backSpeed: 60,
-			loop: false,
-		  });
-	});
+		//         $('.loader').fadeOut();
 
-	var navbar=$('.js-navbar-affix');
-	var windowHeight=$(window).height();
-	var navbarAffixHeight=79
+		// },
+	})
+	.type('<em class="c-braces" style="margin-right: 15px;">{{</em><em class="c-braces">}}</em>')
+	.pause(500)
+	.delete(2)
+	.pause(300)
+	.type('<em>CODE</em>')
+	.pause(750)
+	.delete(1)
+	.pause(750)
+	.type('<em>ONIST</em><em class="c-braces">}}</em>')
+	.pause(1500)
+	.go();
 
+document.onreadystatechange = function () {
+	var state = document.readyState 
+	if (state == 'complete') {
+		setTimeout(function () {
+			$('.loader').fadeOut();
+			instance.destroy();
+		}, 3000);
+	}
+}
 
 
 

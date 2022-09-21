@@ -3,7 +3,8 @@
 <head>
 <meta  charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Hamayun Aziz / Codonist / Full Stack Developer</title> 
+<title>Hamayun Aziz / Codonist / Full Stack Developer</title>
+<link rel="stylesheet" href="./assetss/css/bootstrap.min.css"> 
 
 <!-- Favicons -->
 
@@ -29,6 +30,7 @@
 
 <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
+<link rel="stylesheet" href="./assetss/fonts/courier/stylesheet.css">
 
 <!-- Styles -->
 <link rel="stylesheet" href="./assetss/css/main.css">
@@ -37,13 +39,9 @@
 <body>
 
   <!-- Loader -->
-
-  <div class="loaders">
-    <h2><span class="type"></span></h2>
+   <div id="loader" class="loader">
+      <h1 id="codeit"></h1>
   </div>
-
-  <div id="layout" class="layout">
-  
     <!-- Header -->
 
     <header id="top" class="navbar js-navbar-affix">
@@ -102,7 +100,39 @@
             <p>I am not just a developer, I am creater, my creativity uniqueness and thoughts will not provide you just a product but a true reality of your ideas. </p>
           </div>
             <div class="col-padding column col-md-6 col-md-pull-6">
-              <img alt="" class="img-responsive" src="./assetss/img/about.jpg">
+              <div class="content">
+                <div class="ID-Image">
+                    
+                    <ul id="follow">
+                    
+                        <li class="line1">
+                          <span id="layerBall" class="ball">LINKED IN</span><span id="layerPulse" class="pulse"></span>
+                          </li>
+                          
+                        
+                          <li class="line2">
+                          <span id="layerBall1" class="ball1">FOORST</span><span id="layerPulse1" class="pulse1"></span>
+                          </li>
+                        
+                          <li class="line3">
+                          <span id="layerBall2" class="ball2">TWITTER</span><span id="layerPulse2" class="pulse2"></span>
+                          </li>
+                        
+                          <li class="line4">
+                          <span id="layerBall3" class="ball3">FACEBOOK</span><span id="layerPulse3" class="pulse3"></span>
+                          </li>
+                      </ul>
+                      
+                      <ul id="social">
+                      <li id="layerSocialControl3" class="facebook image"><img src="./assetss/img/about/about.jpg" alt=""></li>
+                      <li id="layerSocialControl2" class="twitter image"><img src="./assetss/img/about/about.jpg" alt=""></li>
+                      <li id="layerSocialControl" class="linked image"><img src="./assetss/img/about/about.jpg" alt=""></li>
+                      <li id="layerSocialControl1" class="forrst image"><img src="./assetss/img/about/about.jpg" alt=""></li>
+                      </ul>
+                      
+                  </div>
+                  
+              </div>
             </div>
           </div>
         </div>
@@ -116,35 +146,58 @@
           <div class="row">
             <div class="col-md-4">
               <div class="skills-bar">
+                <h3>Frontend Developer</h3>
                 <div class="section-skills-bar">
                   <div class="progress-bar-title"><img src="./assetss/img/skills-image/html5-1.png" alt="html-icon"></div>
                   <div class="progress-bar-text">
                     <div class="progress-bar-title">HTML 5</div>
                     <div class="progress">
-                      <div class="progress-bar" data-width="82">
-                        <span>82%</span>
+                      <div class="progress-bar progress-bar-01" role="progressbar" style="width: 90%;" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">
+                      <span>90%</span>
                       </div>
                     </div>
                   </div>
                   </div>
+                  <div class="section-skills-bar">
+                    <div class="progress-bar-title"><img src="./assetss/img/skills-image/pub.png" alt="html-icon"></div>
+                    <div class="progress-bar-text">
+                      <div class="progress-bar-title">Pug html</div>
+                      <div class="progress">
+                        <div class="progress-bar progress-bar-02" role="progressbar" style="width: 90%;" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">
+                        <span>90%</span>
+                        </div>
+                      </div>
+                    </div>
+                    </div>
                   <div class="section-skills-bar">
                   <div class="progress-bar-title"><img src="./assetss/img/skills-image/css-3.png" alt="css-icon"></div>
                   <div class="progress-bar-text">
                     <div class="progress-bar-title">CSS</div>
                     <div class="progress">
-                      <div class="progress-bar" data-width="85">
-                        <span>85%</span>
+                      <div class="progress-bar progress-bar-03" role="progressbar" style="width: 90%;" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">
+                      <span>90%</span>
                       </div>
                     </div>
                   </div>
                   </div>
                   <div class="section-skills-bar">
+                    <div class="progress-bar-title"><img src="./assetss/img/skills-image/bootstrap.png" alt="html-icon"></div>
+                    <div class="progress-bar-text">
+                      <div class="progress-bar-title">Bootstrap</div>
+                      <div class="progress">
+                        <div class="progress-bar progress-bar-04" role="progressbar" style="width: 90%;" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">
+                        <span>90%</span>
+                        </div>
+                      </div>
+                    </div>
+                    </div>
+                  <div class="section-skills-bar">
                   <div class="progress-bar-title"><img src="./assetss/img/skills-image/sass.png" alt="sass-icon"></div>
                   <div class="progress-bar-text">
                     <div class="progress-bar-title">SASS</div>
                     <div class="progress">
-                      <div class="progress-bar" data-width="90">
-                        <span>90%</span>
+                      <div class="progress-bar progress-bar-05" role="progressbar" style="width: 90%;" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">
+                      <span>90%</span>
                       </div>
                     </div>
                   </div>
@@ -154,19 +207,52 @@
                   <div class="progress-bar-text">
                     <div class="progress-bar-title">Less</div>
                     <div class="progress">
-                      <div class="progress-bar" data-width="89">
-                        <span>89%</span>
+                      <div class="progress-bar progress-bar-06" role="progressbar" style="width: 90%;" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">
+                      <span>90%</span>
                       </div>
                     </div>
                   </div>
                   </div>
                   <div class="section-skills-bar">
+                    <div class="progress-bar-title"><img src="./assetss/img/skills-image/bulma-css.png" alt="html-icon"></div>
+                    <div class="progress-bar-text">
+                      <div class="progress-bar-title">Bulma CSS</div>
+                      <div class="progress">
+                        <div class="progress-bar progress-bar-07" role="progressbar" style="width: 90%;" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">
+                        <span>90%</span>
+                        </div>
+                      </div>
+                    </div>
+                    </div>
+                    <div class="section-skills-bar">
+                      <div class="progress-bar-title"><img src="./assetss/img/skills-image/tailwind.png" alt="html-icon"></div>
+                      <div class="progress-bar-text">
+                        <div class="progress-bar-title">Tailwind CSS</div>
+                        <div class="progress">
+                          <div class="progress-bar progress-bar-08" role="progressbar" style="width: 90%;" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">
+                          <span>90%</span>
+                          </div>
+                        </div>
+                      </div>
+                      </div>
+                      <div class="section-skills-bar">
+                        <div class="progress-bar-title"><img src="./assetss/img/skills-image/foundation.png" alt="html-icon"></div>
+                        <div class="progress-bar-text">
+                          <div class="progress-bar-title">Foundation</div>
+                          <div class="progress">
+                            <div class="progress-bar progress-bar-09" role="progressbar" style="width: 90%;" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">
+                            <span>90%</span>
+                            </div>
+                          </div>
+                        </div>
+                        </div>
+                  <div class="section-skills-bar">
                   <div class="progress-bar-title"><img src="./assetss/img/skills-image/javascript.png" alt="html-icon"></div>
                   <div class="progress-bar-text">
                     <div class="progress-bar-title">JavaScript</div>
                     <div class="progress">
-                      <div class="progress-bar" data-width="81">
-                        <span>81%</span>
+                      <div class="progress-bar progress-bar-10" role="progressbar" style="width: 90%;" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">
+                      <span>90%</span>
                       </div>
                     </div>
                   </div>
@@ -176,8 +262,103 @@
                   <div class="progress-bar-text">
                     <div class="progress-bar-title">Jquery</div>
                     <div class="progress">
-                      <div class="progress-bar" data-width="91">
-                        <span>91%</span>
+                      <div class="progress-bar progress-bar-11" role="progressbar" style="width: 90%;" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">
+                      <span>90%</span>
+                      </div>
+                    </div>
+                  </div>
+                  </div>
+                  <div class="section-skills-bar">
+                    <div class="progress-bar-title"><img src="./assetss/img/skills-image/vue-js.png" alt="html-icon"></div>
+                    <div class="progress-bar-text">
+                      <div class="progress-bar-title">Vue Js</div>
+                      <div class="progress">
+                        <div class="progress-bar progress-bar-12" role="progressbar" style="width: 90%;" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">
+                        <span>90%</span>
+                        </div>
+                      </div>
+                    </div> 
+                    </div>
+                    <div class="section-skills-bar">
+                      <div class="progress-bar-title"><img src="./assetss/img/skills-image/typescript.png" alt="html-icon"></div>
+                      <div class="progress-bar-text">
+                        <div class="progress-bar-title">TypeScript</div>
+                        <div class="progress">
+                          <div class="progress-bar progress-bar-13" role="progressbar" style="width: 90%;" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">
+                          <span>90%</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    
+                      <div class="section-skills-bar">
+                        <div class="progress-bar-title"><img src="./assetss/img/skills-image/vuetify.png" alt="html-icon"></div>
+                        <div class="progress-bar-text">
+                          <div class="progress-bar-title">Vuetify</div>
+                          <div class="progress">
+                            <div class="progress-bar progress-bar-14" role="progressbar" style="width: 90%;" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">
+                            <span>90%</span>
+                            </div>
+                          </div>
+                        </div>
+                        </div>
+                        <div class="section-skills-bar">
+                          <div class="progress-bar-title"><img src="./assetss/img/skills-image/vue-x.png" alt="html-icon"></div>
+                          <div class="progress-bar-text">
+                            <div class="progress-bar-title">vuex</div>
+                            <div class="progress">
+                              <div class="progress-bar progress-bar-15" role="progressbar" style="width: 90%;" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">
+                              <span>90%</span>
+                              </div>
+                            </div>
+                          </div>
+                          </div>
+                          <div class="section-skills-bar">
+                            <div class="progress-bar-title"><img src="./assetss/img/skills-image/gulp.png" alt="html-icon"></div>
+                            <div class="progress-bar-text">
+                              <div class="progress-bar-title">GulpJS</div>
+                              <div class="progress">
+                                <div class="progress-bar progress-bar-16" role="progressbar" style="width: 90%;" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">
+                                <span>90%</span>
+                                </div>
+                              </div>
+                            </div>
+                            </div>
+                          <div class="section-skills-bar">
+                            <div class="progress-bar-title"><img src="./assetss/img/skills-image/stylus.svg" alt="html-icon"></div>
+                            <div class="progress-bar-text">
+                              <div class="progress-bar-title">Stylus</div>
+                              <div class="progress">
+                                <div class="progress-bar progress-bar-17" role="progressbar" style="width: 90%;" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">
+                                <span>90%</span>
+                                </div>
+                              </div>
+                            </div>
+                            </div>
+                        
+                          <div class="section-skills-bar">
+                            <div class="progress-bar-title"><img src="./assetss/img/skills-image/vite-logo.svg" alt="html-icon"></div>
+                            <div class="progress-bar-text">
+                              <div class="progress-bar-title">Vite</div>
+                              <div class="progress">
+                                <div class="progress-bar progress-bar-18" role="progressbar" style="width: 90%;" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">
+                                <span>90%</span>
+                                </div>
+                              </div>
+                            </div>
+                            </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="skills-bar">
+                <h3>Backend Development</h3>
+                <div class="section-skills-bar">
+                  <div class="progress-bar-title"><img src="./assetss/img/skills-image/php.png" alt="html-icon"></div>
+                  <div class="progress-bar-text">
+                    <div class="progress-bar-title">PHP</div>
+                    <div class="progress">
+                      <div class="progress-bar progress-bar-19" role="progressbar" style="width: 90%;" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">
+                      <span>90%</span>
                       </div>
                     </div>
                   </div>
@@ -187,297 +368,173 @@
                     <div class="progress-bar-text">
                       <div class="progress-bar-title">Laravel</div>
                       <div class="progress">
-                        <div class="progress-bar" data-width="90">
-                          <span>90%</span>
+                        <div class="progress-bar progress-bar-20" role="progressbar" style="width: 90%;" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">
+                        <span>90%</span>
                         </div>
                       </div>
                     </div>
                     </div>
-                    <div class="section-skills-bar">
-                      <div class="progress-bar-title"><img src="./assetss/img/skills-image/bulma-css.png" alt="html-icon"></div>
-                      <div class="progress-bar-text">
-                        <div class="progress-bar-title">Bulma CSS</div>
-                        <div class="progress">
-                          <div class="progress-bar" data-width="90">
-                            <span>90%</span>
-                          </div>
-                        </div>
-                      </div>
-                      </div>
                       <div class="section-skills-bar">
                         <div class="progress-bar-title"><img src="./assetss/img/skills-image/codeigniter.png" alt="html-icon"></div>
                         <div class="progress-bar-text">
                           <div class="progress-bar-title">Codeigniter</div>
                           <div class="progress">
-                            <div class="progress-bar" data-width="90">
-                              <span>90%</span>
-                            </div>
-                          </div>
-                        </div>
-                        </div>
-                        <div class="section-skills-bar">
-                          <div class="progress-bar-title"><img src="./assetss/img/skills-image/visual-composer.jfif" alt="html-icon"></div>
-                          <div class="progress-bar-text">
-                            <div class="progress-bar-title">Visual Composer</div>
-                            <div class="progress">
-                              <div class="progress-bar" data-width="90">
-                                <span>90%</span>
-                              </div>
-                            </div>
-                          </div>
-                          </div>
-                          <div class="section-skills-bar">
-                            <div class="progress-bar-title"><img src="./assetss/img/skills-image/vite-logo.svg" alt="html-icon"></div>
-                            <div class="progress-bar-text">
-                              <div class="progress-bar-title">Vite</div>
-                              <div class="progress">
-                                <div class="progress-bar" data-width="90">
-                                  <span>90%</span>
-                                </div>
-                              </div>
-                            </div>
-                            </div>
-              </div>
-            </div>
-            <div class="col-md-4">
-              <div class="skills-bar">
-                <div class="section-skills-bar">
-                  <div class="progress-bar-title"><img src="./assetss/img/skills-image/elementor.png" alt="html-icon"></div>
-                  <div class="progress-bar-text">
-                    <div class="progress-bar-title">Elementor</div>
-                    <div class="progress">
-                      <div class="progress-bar" data-width="90">
-                        <span>90%</span>
-                      </div>
-                    </div>
-                  </div>
-                  </div>
-                  <div class="section-skills-bar">
-                    <div class="progress-bar-title"><img src="./assetss/img/skills-image/foundation.png" alt="html-icon"></div>
-                    <div class="progress-bar-text">
-                      <div class="progress-bar-title">Foundation</div>
-                      <div class="progress">
-                        <div class="progress-bar" data-width="90">
-                          <span>90%</span>
-                        </div>
-                      </div>
-                    </div>
-                    </div>
-                    <div class="section-skills-bar">
-                      <div class="progress-bar-title"><img src="./assetss/img/skills-image/gulp.png" alt="html-icon"></div>
-                      <div class="progress-bar-text">
-                        <div class="progress-bar-title">GulpJS</div>
-                        <div class="progress">
-                          <div class="progress-bar" data-width="90">
+                            <div class="progress-bar progress-bar-21" role="progressbar" style="width: 90%;" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">
                             <span>90%</span>
-                          </div>
-                        </div>
-                      </div>
-                      </div>
-                      <div class="section-skills-bar">
-                        <div class="progress-bar-title"><img src="./assetss/img/skills-image/guttenberg.jpg" alt="html-icon"></div>
-                        <div class="progress-bar-text">
-                          <div class="progress-bar-title">Guttenberg</div>
-                          <div class="progress">
-                            <div class="progress-bar" data-width="90">
-                              <span>90%</span>
                             </div>
                           </div>
                         </div>
                         </div>
+               
+                  
+                    
+                      
                         <div class="section-skills-bar">
                           <div class="progress-bar-title"><img src="./assetss/img/skills-image/materialize.png" alt="html-icon"></div>
                           <div class="progress-bar-text">
                             <div class="progress-bar-title">Materialize</div>
                             <div class="progress">
-                              <div class="progress-bar" data-width="90">
-                                <span>90%</span>
+                              <div class="progress-bar 22" role="progressbar" style="width: 90%;" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">
+                              <span>90%</span>
                               </div>
                             </div>
                           </div>
                           </div>
                           <div class="section-skills-bar">
-                            <div class="progress-bar-title"><img src="./assetss/img/skills-image/webpack.png" alt="html-icon"></div>
+                            <div class="progress-bar-title"><img src="./assetss/img/skills-image/twig.png" alt="html-icon"></div>
                             <div class="progress-bar-text">
-                              <div class="progress-bar-title">Webpack</div>
+                              <div class="progress-bar-title">twig</div>
                               <div class="progress">
-                                <div class="progress-bar" data-width="90">
-                                  <span>90%</span>
+                                <div class="progress-bar progress-bar-23" role="progressbar" style="width: 90%;" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">
+                                <span>90%</span>
                                 </div>
                               </div>
                             </div>
                             </div>
                             <div class="section-skills-bar">
-                              <div class="progress-bar-title"><img src="./assetss/img/skills-image/wp-bakery.jpg" alt="html-icon"></div>
+                              <div class="progress-bar-title"><img src="./assetss/img/skills-image/uIkit.png" alt="html-icon"></div>
                               <div class="progress-bar-text">
-                                <div class="progress-bar-title">WP Bakery</div>
+                                <div class="progress-bar-title">UIkit</div>
                                 <div class="progress">
-                                  <div class="progress-bar" data-width="90">
-                                    <span>90%</span>
+                                  <div class="progress-bar progress-bar-24" role="progressbar" style="width: 90%;" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">
+                                  <span>90%</span>
                                   </div>
                                 </div>
                               </div>
                               </div>
-                              <div class="section-skills-bar">
-                                <div class="progress-bar-title"><img src="./assetss/img/skills-image/typescript.png" alt="html-icon"></div>
-                                <div class="progress-bar-text">
-                                  <div class="progress-bar-title">TypeScript</div>
-                                  <div class="progress">
-                                    <div class="progress-bar" data-width="94">
-                                      <span>94%</span>
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
-                              <div class="section-skills-bar">
-                                <div class="progress-bar-title"><img src="./assetss/img/skills-image/bootstrap.png" alt="html-icon"></div>
-                                <div class="progress-bar-text">
-                                  <div class="progress-bar-title">Bootstrap</div>
-                                  <div class="progress">
-                                    <div class="progress-bar" data-width="95">
-                                      <span>95%</span>
-                                    </div>
-                                  </div>
-                                </div>
-                                </div>
-                                <div class="section-skills-bar">
-                                  <div class="progress-bar-title"><img src="./assetss/img/skills-image/vuetify.png" alt="html-icon"></div>
-                                  <div class="progress-bar-text">
-                                    <div class="progress-bar-title">Vuetify</div>
-                                    <div class="progress">
-                                      <div class="progress-bar" data-width="90">
-                                        <span>90%</span>
-                                      </div>
-                                    </div>
-                                  </div>
-                                  </div>
-                                  <div class="section-skills-bar">
-                                    <div class="progress-bar-title"><img src="./assetss/img/skills-image/vue-x.png" alt="html-icon"></div>
-                                    <div class="progress-bar-text">
-                                      <div class="progress-bar-title">vuex</div>
-                                      <div class="progress">
-                                        <div class="progress-bar" data-width="90">
-                                          <span>90%</span>
-                                        </div>
-                                      </div>
-                                    </div>
-                                    </div>
+                            
+                             
               </div>
             </div>
             <div class="col-md-4">
               <div class="skills-bar">
+                <h3>CMS and Web Designe</h3>
                 <div class="section-skills-bar">
-                  <div class="progress-bar-title"><img src="./assetss/img/skills-image/vue-js.png" alt="html-icon"></div>
-                  <div class="progress-bar-text">
-                    <div class="progress-bar-title">Vue Js</div>
-                    <div class="progress">
-                      <div class="progress-bar" data-width="86">
-                        <span>86%</span>
-                      </div>
-                    </div>
-                  </div> 
-                  </div>
-                  <div class="section-skills-bar">
-                  <div class="progress-bar-title"><img src="./assetss/img/skills-image/php.png" alt="html-icon"></div>
-                  <div class="progress-bar-text">
-                    <div class="progress-bar-title">PHP</div>
-                    <div class="progress">
-                      <div class="progress-bar" data-width="84">
-                        <span>84%</span>
-                      </div>
-                    </div>
-                  </div>
-                  </div>
-                  <div class="section-skills-bar">
                   <div class="progress-bar-title"><img src="./assetss/img/skills-image/wordpress.png" alt="html-icon"></div>
                   <div class="progress-bar-text">
                     <div class="progress-bar-title">WordPress</div>
                     <div class="progress">
-                      <div class="progress-bar" data-width="87">
-                        <span>87%</span>
+                      <div class="progress-bar progress-bar-25" role="progressbar" style="width: 90%;" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">
+                      <span>90%</span>
                       </div>
                     </div>
                   </div>
                   </div>
                   <div class="section-skills-bar">
-                  <div class="progress-bar-title"><img src="./assetss/img/skills-image/git.png" alt="html-icon"></div>
-                  <div class="progress-bar-text">
-                    <div class="progress-bar-title">Git</div>
-                    <div class="progress">
-                      <div class="progress-bar" data-width="90">
-                        <span>90%</span>
-                      </div>
-                    </div>
-                  </div>
-                  </div>
-                  <div class="section-skills-bar">
-                    <div class="progress-bar-title"><img src="./assetss/img/skills-image/npm.png" alt="html-icon"></div>
+                    <div class="progress-bar-title"><img src="./assetss/img/skills-image/guttenberg.jpg" alt="html-icon"></div>
                     <div class="progress-bar-text">
-                      <div class="progress-bar-title">NPM</div>
+                      <div class="progress-bar-title">Guttenberg</div>
                       <div class="progress">
-                        <div class="progress-bar" data-width="90">
-                          <span>90%</span>
+                        <div class="progress-bar progress-bar-26" role="progressbar" style="width: 90%;" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">
+                        <span>90%</span>
                         </div>
                       </div>
                     </div>
                     </div>
                     <div class="section-skills-bar">
-                      <div class="progress-bar-title"><img src="./assetss/img/skills-image/stylus.svg" alt="html-icon"></div>
+                      <div class="progress-bar-title"><img src="./assetss/img/skills-image/elementor.png" alt="html-icon"></div>
                       <div class="progress-bar-text">
-                        <div class="progress-bar-title">Stylus</div>
+                        <div class="progress-bar-title">Elementor</div>
                         <div class="progress">
-                          <div class="progress-bar" data-width="90">
-                            <span>90%</span>
+                          <div class="progress-bar progress-bar-27" role="progressbar" style="width: 90%;" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">
+                          <span>90%</span>
                           </div>
                         </div>
                       </div>
                       </div>
                       <div class="section-skills-bar">
-                        <div class="progress-bar-title"><img src="./assetss/img/skills-image/tailwind.png" alt="html-icon"></div>
+                        <div class="progress-bar-title"><img src="./assetss/img/skills-image/divi.png" alt="html-icon"></div>
                         <div class="progress-bar-text">
-                          <div class="progress-bar-title">TailwindCSS</div>
+                          <div class="progress-bar-title">Divi</div>
                           <div class="progress">
-                            <div class="progress-bar" data-width="90">
-                              <span>90%</span>
+                            <div class="progress-bar progress-bar-28" role="progressbar" style="width: 90%;" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">
+                            <span>90%</span>
                             </div>
                           </div>
                         </div>
                         </div>
                         <div class="section-skills-bar">
-                          <div class="progress-bar-title"><img src="./assetss/img/skills-image/twig.png" alt="html-icon"></div>
+                          <div class="progress-bar-title"><img src="./assetss/img/skills-image/wp-bakery.jpg" alt="html-icon"></div>
                           <div class="progress-bar-text">
-                            <div class="progress-bar-title">twig</div>
+                            <div class="progress-bar-title">WP Bakery</div>
                             <div class="progress">
-                              <div class="progress-bar" data-width="90">
-                                <span>90%</span>
+                              <div class="progress-bar progress-bar-29" role="progressbar" style="width: 90%;" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">
+                              <span>90%</span>
                               </div>
                             </div>
                           </div>
                           </div>
                           <div class="section-skills-bar">
-                            <div class="progress-bar-title"><img src="./assetss/img/skills-image/uIkit.png" alt="html-icon"></div>
+                            <div class="progress-bar-title"><img src="./assetss/img/skills-image/visual-composer.jfif" alt="html-icon"></div>
                             <div class="progress-bar-text">
-                              <div class="progress-bar-title">UIkit</div>
+                              <div class="progress-bar-title">Visual Composer</div>
                               <div class="progress">
-                                <div class="progress-bar" data-width="90">
-                                  <span>90%</span>
+                                <div class="progress-bar progress-bar-30" role="progressbar" style="width: 90%;" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">
+                                <span>90%</span>
                                 </div>
                               </div>
                             </div>
-                            </div>
-                            <div class="section-skills-bar">
-                              <div class="progress-bar-title"><img src="./assetss/img/skills-image/pub.png" alt="html-icon"></div>
-                              <div class="progress-bar-text">
-                                <div class="progress-bar-title">Pug html</div>
-                                <div class="progress">
-                                  <div class="progress-bar" data-width="90">
-                                    <span>90%</span>
-                                  </div>
-                                </div>
-                              </div>
-                              </div>
+                          </div>
               </div>
             </div>
+            <div class="col-lg-4">
+              <div class="skills-bar">
+                <h3>Other Tools</h3>
+              <div class="section-skills-bar">
+                <div class="progress-bar-title"><img src="./assetss/img/skills-image/git.png" alt="html-icon"></div>
+                <div class="progress-bar-text">
+                  <div class="progress-bar-title">Git</div>
+                  <div class="progress">
+                    <div class="progress-bar progress-bar-31" role="progressbar" style="width: 90%;" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">
+                    <span>90%</span>
+                    </div>
+                  </div>
+                </div>
+                </div>
+                <div class="section-skills-bar">
+                  <div class="progress-bar-title"><img src="./assetss/img/skills-image/npm.png" alt="html-icon"></div>
+                  <div class="progress-bar-text">
+                    <div class="progress-bar-title">NPM</div>
+                    <div class="progress">
+                      <div class="progress-bar progress-bar-32" role="progressbar" style="width: 90%;" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">
+                      <span>90%</span>
+                      </div>
+                    </div>
+                  </div>
+                  </div>
+                  <div class="section-skills-bar">
+                    <div class="progress-bar-title"><img src="./assetss/img/skills-image/webpack.png" alt="html-icon"></div>
+                    <div class="progress-bar-text">
+                      <div class="progress-bar-title">Webpack</div>
+                      <div class="progress">
+                        <div class="progress-bar progress-bar-01" role="progressbar" style="width: 90%;" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">
+                        <span>90%</span>
+                        </div>
+                      </div>
+                    </div>
+                    </div>
+            </div>
+          </div>
           </div>
         </div>
     </section>
@@ -489,7 +546,7 @@
           <div class="row">
             <div class="text-center col-md-8 col-md-offset-2">
               <h2 class="section-titler">View My Resume</h2>
-              <p class="lead-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+              <p class="lead-text">I am available to join your team and for hourly contracts.</p>
             </div>
           </div> 
         <div class="section-buttons section-body-sm">
@@ -652,7 +709,7 @@
                 <div class="review">
                   <div class="text-center">
                     <img alt="" class="img-circle" src="./assetss/img/reviews/client-image.png">
-                    <h3>Matin <br>Qaswa web</h3>
+                    <h3>Matin <br>Qaswaweb</h3>
                     <div class="col-md-6 col-md-offset-3">
                       <p>Humayun is very great developer to work with.He understands the requirements correctly and his communication is very impressive.He gave me pixel perfect work for WordPress site. I’m recommending anyone who wants to create WordPress site</p>
                     </div>
@@ -677,15 +734,6 @@
                     </h3>
                     <div class="col-md-6 col-md-offset-3">
                       <p>I am one of its parmanent client.He is my go to guy for front end but very knowledgeable on the backend as well</p>
-                    </div>
-                  </div>
-                </div>
-                <div class="review">
-                  <div class="text-center">
-                    <img alt="" class="img-circle"  src="./assetss/img/reviews/client-image.png">
-                    <h3>Matin <br> Qaswa web</h3>
-                    <div class="col-md-6 col-md-offset-3">
-                      <p>Humayun is very great developer to work with.He understands the requirements correctly and his communication is very impressive.He gave me pixel perfect work for WordPress site. I’m recommending anyone who wants to create WordPress site</p>
                     </div>
                   </div>
                 </div>
