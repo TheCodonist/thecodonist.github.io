@@ -1,0 +1,9 @@
+{
+  "name": "lighttt-galleryyy",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "lightgallery": "^2.7.0"
+  }
+}

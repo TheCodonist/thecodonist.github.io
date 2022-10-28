@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="/favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.7.0/css/lightgallery-bundle.min.css">
+    <title>Imperium Jets</title>
+  </head>
+  <body>
+    <div class="video-block">
+      <button id="playVideo" class="play-video"><img src="./play.svg" alt="play"></button>
+      <div class="video-gallery">
+          <a data-lg-size="1280-720" data-src="https://youtu.be/RzJsbi9ygqo?list=TLGGLiiVedliQOkxNDA3MjAyMg" data-poster="./video-poster.jpg">
+              <img width="1216" height="480" src="./video-poster.jpg" />
+          </a>
+      </div>
+  </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.6.1.js"></script>
+    <script src="./lightgallery.min.js"></script>
+    <script src="./video.js"></script>
+    <!-- <script src="./node_modules/lightgallery/lightgallery.min.js"></script>
+    <script src="./node_modules/lightgallery/plugins/video/lg-video.min.js"></script> -->
+
+    <script>
+          // Play video in Lightbox
+    var videoGallery = document.querySelectorAll('.video-gallery');
+    if (videoGallery.length) {
+        for (var i = 0; i < videoGallery.length; i++) {
+            lightGallery(videoGallery[i], {
+                plugins: [lgVideo],
+                autoplayVideoOnSlide: true,
+                zoom: true,
+                download: false,
+                mobileSettings: {
+                    showCloseIcon: true,
+                },
+            });
+        }
+    }
+
+    // Trigger Video click on Button
+    const playVideoID = document.getElementById('playVideo');
+    if (playVideoID) {
+        playVideoID.onclick = (el) => {
+            el.currentTarget.closest('.video-block').querySelector('.video-gallery img').click();
+        }
+    }
+
+    </script>
+  </body>
+</html>
