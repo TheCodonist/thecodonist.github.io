@@ -165,6 +165,7 @@ body {
   background-color: #ffffff !important;
   position: relative;
   padding-bottom: 94px;
+  min-height: 100vh;
 }
 
 .container {
