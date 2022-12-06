@@ -1,0 +1,49 @@
+
+.done-content {
+  padding-top: 30px;
+  .done-inner-content {
+    text-align: center;
+    h2 {
+      font-size: 20px;
+      font-weight: 400;
+      margin: 8px 0 10px;
+    }
+    h3 {
+      font-size: 17px;
+      font-weight: 400;
+      margin-bottom: 20px;
+    }
+    h4 {
+      font-size: 16px;
+      font-weight: 400;
+      padding: 0 10px;
+      margin-bottom: 20px;
+    }
+    p {
+      font-size: 16px;
+      font-weight: 700;
+    }
+  }
+  .done-section-buttons {
+    display: flex;
+    justify-content: space-between;
+    gap: 16px;
+    margin-top: 40px;
+    a {
+      background-color: #143964;
+      color: #ffffff;
+      border: none;
+      outline: none;
+      border-radius: 7px;
+      padding: 8px;
+      text-decoration: none;
+      text-align: center;
+      font-size: 10px;
+      line-height: 1.5em;
+      img{
+        display: block;
+        margin: 0 auto 5px;
+      }
+    }
+  }
+}

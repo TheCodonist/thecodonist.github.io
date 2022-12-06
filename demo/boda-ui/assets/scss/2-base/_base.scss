@@ -1,0 +1,54 @@
+/*--------------*\
+    Base
+\*--------------*/
+
+body {
+  font-family: $main-font-family;
+  background-color: #ffffff !important;
+  position: relative;
+  padding-bottom: 94px;
+}
+.container{
+  max-width: 285px;
+  margin: 0 auto;
+}
+
+.bg-blue{
+  background-color: #143964;
+}
+
+.btn-main-blue {
+  background-color: #143963;
+  color: #ffffff;
+  outline: none;
+  border: none;
+  border-radius: 10px;
+  padding: 15px;
+  padding-left: 50px;
+  text-align: right;
+  position: relative;
+  font-size: 14px;
+  line-height: 1.5em;
+  width: 100%;
+  &::after {
+    content: "";
+    position: absolute;
+    background: url("../images/Vector.png") no-repeat 0 0;
+    height: 27px;
+    width: 35px;
+    left: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+}
+
+.check-circle{
+  display: block;
+  margin: 0 auto;
+  width: 36px;
+  height: 36px;
+  border: 3px solid #143964;
+  border-radius: 50%;
+  line-height: 36px;
+  text-align: center;
+}

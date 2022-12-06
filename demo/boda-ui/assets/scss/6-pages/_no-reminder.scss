@@ -1,0 +1,34 @@
+
+
+.reminder-content{
+    padding-top: 22px;
+    text-align: center;
+
+    .gray-box{
+        background-color: #F8F8F8;
+        padding: 35px 15px 30px;
+        margin-top: 27px;
+
+        h3{
+            font-size: 18px;
+            font-weight: 700;
+            margin-bottom: 23px;
+            color: #143964;
+        }
+
+        p{
+            font-size: 18px;
+            line-height: 1.8;
+            margin-bottom: 50px;
+        }
+
+        button{
+            color: #AAAAAA;
+            font-size: 14px;
+            border: none;
+            outline: none;
+            background-color: transparent;
+            cursor: pointer;
+        }
+    }
+}

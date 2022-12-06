@@ -1,0 +1,55 @@
+/*--------------*\
+    header Section
+\*--------------*/
+
+.main-header{
+  color: #ffffff;
+  text-align: center;
+  padding: 7px 0;
+
+  h2.title{
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 0;
+  }
+  h6.title{
+    font-size: 10px;
+    font-weight: 400;
+    margin-bottom: 3px;
+  }
+
+  .header-inner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .header-right {
+    color: #ffffff;
+    text-align: right;
+  }
+
+  .header-left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    button {
+      background-color: transparent;
+      outline: none;
+      border: none;
+      img {
+        height: 28px;
+        width: 28px;
+      }
+    }
+
+    p {
+      color: #888888;
+      font-size: 12px;
+      font-weight: 300;
+      margin-bottom: 0;
+    }
+  }
+}

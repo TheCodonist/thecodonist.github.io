@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html dir="rtl" lang="yi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.rtl.min.css"
+          integrity="sha384-gXt9imSW0VcJVHezoNQsP+TNrjYXoGcrqBZJpry9zJt8PCQjobwmhMGaDHTASo9N" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <title>boda</title>
+</head>
+
+<body>
+
+<section class="main-section">
+    <div class="container">
+        <div class="notification success">
+            <p> אישור הגעה בוצע</p>
+        </div>
+        <div class="main-content">
+            <img src="./assets/images/banner.png" alt="">
+        </div>
+        <div class="main-links">
+            <a href="">שלחו לי תזכורת</a>
+            <a href="">לא אגיע לאירוע</a>
+        </div>
+        <div class="main-button">
+            <button type="button" class="btn-main-blue" data-bs-toggle="modal"
+                    data-bs-target="#staticBackdrop">בחר את מקום הישיבה באירוע
+                וראה מי יושב איתך בשולחן!
+            </button>
+        </div>
+    </div>
+</section>
+<secton class="wizard-section">
+    <div class="container">
+        <div class="wizard-steps">
+            <div class="step active">
+                <p>אישור<br>
+                    הזמנה</p>
+                <span>1</span>
+            </div>
+            <div class="step">
+                <p>איפה<br>
+                    יושבים?</p>
+                <span>2</span>
+            </div>
+            <div class="step">
+                <p>מה<br>
+                    אוכלים?</p>
+                <span>3</span>
+            </div>
+
+            <div class="step">
+                <p>יאללה <br>חתונה!</p>
+                <span>4</span>
+            </div>
+        </div>
+    </div>
+</secton>
+
+<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+     aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered home-modal">
+        <div class="modal-content">
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            <div class="modal-body">
+                <h2>לא תוכל להגיע לאירוע?</h2>
+                <p>אולי אתה צריך זמן לחשוב על זה...<br>
+                    תרצה לקבל תזכורת מאיתנו
+                    בעוד שלושה ימים?</p>
+
+                <a href="" class="reminder">כן, אני רוצה תזכורת</a>
+                <p>לא, תודה.
+                    לצערי, אני לא אוכל להגיע לאירוע.</p>
+            </div>
+            <button type="button" class="btn close-app">לחץ כאן לביטול הגעה לאירוע</button>
+        </div>
+    </div>
+</div>
+
+
+<script src="https://code.jquery.com/jquery-3.6.1.js"
+        integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+<script src="./assets/jquery/main.js"></script>
+</body>
+
+</html>
