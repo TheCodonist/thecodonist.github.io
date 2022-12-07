@@ -1,0 +1,33 @@
+.reenter-inner-content {
+  text-align: center;
+  .check-circle {
+    margin-bottom: 25px;
+  }
+  h2 {
+    margin-bottom: 0px;
+    font-size: 17px;
+    font-weight: 400;
+    PADDING: 0px 7px;
+  }
+  h3 {
+    margin-bottom: 0px;
+    font-size: 14px;
+    font-weight: 700;
+    color: #0089bc;
+  }
+  p {
+    margin-top: 15px;
+    font-size: 14px;
+    font-weight: 400;
+    position: relative;
+    &:before {
+      content: "";
+      background: url("../images/icons/glass.svg") no-repeat 0 0;
+      width: 37px;
+      height: 38px;
+      position: absolute;
+      top: -35px;
+      left: 1px;
+    }
+  }
+}

@@ -1,0 +1,62 @@
+.calender-content {
+  padding: 22px 0 39px;
+
+  .calender-content-top {
+    // text-align: right;
+    img {
+      margin-bottom: 16px;
+    }
+    h2 {
+      font-size: 17px;
+      font-weight: 400;
+      line-height: 26px;
+      margin-bottom: 20px;
+    }
+    .calender-btn {
+      text-align: center;
+
+      button {
+        font-size: 12px;
+        font-weight: 400;
+        max-width: 147px;
+        padding: 5px 16px;
+        &::after {
+          background: url("../images/icons/small-arrow-btn.svg") no-repeat 0 0;
+          width: 8px;
+          height: 16px;
+          top: 50%;
+          transform: translateY(-50%);
+        }
+      }
+    }
+    .calender-icons {
+        padding: 39px 0 18px;
+        display: flex;
+        justify-content: space-around;
+        align-items: flex-end;
+        a {
+            text-decoration: none;
+            color: #AAAAAA;
+            font-size: 10px;
+            font-weight: 400;
+            text-align: center;
+        }
+    }
+  }
+
+  .calender-line {
+    border-top: 1px solid #99999980;
+  }
+
+  .calender-content-bottom {
+    padding-top: 16px;
+    img {
+        margin-bottom: 4px;
+    }
+    p {
+        color: #636363;
+        font-size: 13px;
+        font-weight: 400;
+    }
+  }
+}

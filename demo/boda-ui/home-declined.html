@@ -7,11 +7,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-        crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.rtl.min.css"
         integrity="sha384-gXt9imSW0VcJVHezoNQsP+TNrjYXoGcrqBZJpry9zJt8PCQjobwmhMGaDHTASo9N" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Noto+Sans+Hebrew:wght@100;200;300;400;500;600;700;800;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="assets/css/main.css">
     <title>Declined</title>
 </head>
@@ -23,25 +25,38 @@
             <div class="notification danger">
                 <p>סימנת שלא תגיע/י לאירוע</p>
             </div>
-            <p class="text-danger text-center">בחר את מקום הישיבה באירוע
-                וראה מי יושב איתך בשולחן!</p>
+            <p class="text-danger text-center">לשינוי הבחירה שלך, יש ללחוץ על הכפתור למטה לבחירת המנות ומקום הישיבה שלך
+            </p>
             <div class="main-content">
-                <img src="./assets/images/banner.png" alt="">
+                <div class="main-content-head">
+                    <h2>איציק & מיקה</h2>
+                    <h2>מתחתנים</h2>
+                </div>
+                <div class="content-head-inner">
+                    <img src="./assets/images/Wedding-img.svg" alt="">
+                    <h5>נחגוג את האירוע ב:</h5>
+                    <h2>עדן על המים</h2>
+                    <h5>נפגשים ב:</h5>
+                    <h3>יום חמישי - ג’ באייר תשנ”פ</h3>
+                    <h2>25.10.2021</h2>
+                    <h4>קבלת פנים ב-19:00</h4>
+                    <h4>חופה וקידושין ב-20:00</h4>
+                </div>
             </div>
             <div class="main-links">
                 <a href="">שלחו לי תזכורת</a>
                 <a href="">לא אגיע לאירוע</a>
             </div>
             <div class="main-button">
-                <button type="button" class="btn-main-blue" data-bs-toggle="modal"
-                    data-bs-target="#staticBackdrop">בחר את מקום הישיבה באירוע
+                <button type="button" class="btn-main-blue" data-bs-toggle="modal" data-bs-target="#staticBackdrop">בחר
+                    את מקום הישיבה באירוע
                     וראה מי יושב איתך בשולחן!
                 </button>
             </div>
         </div>
     </section>
 
-    <secton class="wizard-section">
+    <section class="wizard-section">
         <div class="container">
             <div class="wizard-steps">
                 <div class="step active">
@@ -66,7 +81,7 @@
                 </div>
             </div>
         </div>
-    </secton>
+    </section>
 
     <!-- Modal -->
 
@@ -80,10 +95,10 @@
                     <p>אולי אתה צריך זמן לחשוב על זה...
                         תרצה לקבל תזכורת מאיתנו
                         בעוד שלושה ימים?</p>
-                        
-                        <a href="" class="reminder">כן, אני רוצה תזכורת</a>
-                            <p>לא, תודה. 
-                                לצערי, אני לא אוכל להגיע לאירוע.</p>
+
+                    <a href="" class="reminder">כן, אני רוצה תזכורת</a>
+                    <p>לא, תודה.
+                        לצערי, אני לא אוכל להגיע לאירוע.</p>
                 </div>
                 <button type="button" class="btn close-app">לחץ כאן לביטול הגעה לאירוע</button>
             </div>
@@ -92,7 +107,9 @@
 
 
 
-
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.6.1.js"
         integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous"></script>
     <script src="./assets/jquery/main.js"></script>

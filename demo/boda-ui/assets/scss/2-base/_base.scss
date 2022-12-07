@@ -6,11 +6,11 @@ body {
   font-family: $main-font-family;
   background-color: #ffffff !important;
   position: relative;
-  padding-bottom: 94px;
+  padding-bottom: 79px;
   min-height: 100vh;
 }
 .container{
-  max-width: 285px;
+  max-width: 767px;
   margin: 0 auto;
 }
 
@@ -34,7 +34,7 @@ body {
   &::after {
     content: "";
     position: absolute;
-    background: url("../images/Vector.png") no-repeat 0 0;
+    background: url("../images/icons/Vector.png") no-repeat 0 0;
     height: 27px;
     width: 35px;
     left: 20px;
@@ -46,8 +46,8 @@ body {
 .check-circle{
   display: block;
   margin: 0 auto;
-  width: 36px;
-  height: 36px;
+  width: 42px;
+  height: 42px;
   border: 3px solid #143964;
   border-radius: 50%;
   line-height: 36px;

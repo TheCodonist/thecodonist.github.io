@@ -1,0 +1,113 @@
+.survey-header {
+  background-color: #9c6fd6;
+  padding: 10px 0;
+  font-family: "Poppins", sans-serif;
+  .header-inner {
+    justify-content: center;
+    h2 {
+      font-weight: 700;
+      font-size: 18px;
+      line-height: 27px;
+      color: #ffffff;
+      margin-bottom: 0;
+    }
+  }
+}
+
+.survey-content {
+  padding: 15px 0 12px;
+  .survey-content-top {
+    padding-bottom: 30px;
+    h2 {
+      font-size: 20px;
+      font-weight: 400;
+      margin-bottom: 10px;
+    }
+    h1 {
+      font-size: 24px;
+      font-weight: 700;
+      text-decoration: underline;
+      margin-bottom: 0;
+    }
+  }
+  .survey-list {
+    ul {
+      line-height: 22px;
+      padding-left: 0;
+      padding-right: 8px;
+      li {
+        font-size: 14px;
+        font-weight: 400;
+        list-style-type: decimal;
+        p {
+          font-size: 11px;
+          font-weight: 400;
+        }
+        .rating {
+          display: flex;
+          justify-content: space-around;
+          padding-top: 16px;
+          padding-bottom: 5px;
+          button {
+            border: none;
+            outline: none;
+            background-color: #d9d9d9;
+            border-radius: 50%;
+            height: 31px;
+            width: 31px;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 31px;
+            text-align: center;
+            color: #000000;
+            &.active {
+              background-color: #a103a5;
+              color: #ffffff;
+            }
+          }
+        }
+        .rating-btns {
+          display: flex;
+          justify-content: space-between;
+          margin-bottom: 25px;
+          button {
+            background-color: transparent;
+            border: none;
+            outline: none;
+            color: #696969;
+            font-size: 9px;
+            font-weight: 400;
+          }
+        }
+      }
+    }
+  }
+
+  .survey-popup-btn {
+    text-align: center;
+    button {
+      background-color: #842c86;
+      color: #ffffff;
+      outline: none;
+      border: none;
+      border-radius: 10px;
+      padding: 10px 15px;
+      padding-left: 50px;
+      text-align: right;
+      position: relative;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 1.5em;
+      &::after {
+        content: "";
+        position: absolute;
+        background: url("../images/icons/btn-arrow.svg") no-repeat 0 0;
+        height: 17px;
+        width: 15px;
+        left: 20px;
+        top: 50%;
+        transform: translateY(-50%);
+      }
+    }
+  }
+}

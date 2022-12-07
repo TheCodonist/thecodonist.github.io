@@ -3,10 +3,9 @@
 \*--------------*/
 .notification {
   text-align: center;
-  padding: 15px 0;
+  padding: 10px 0;
   p {
-
-    padding: 7px 36px 7px 22px;
+    
     border-radius: 20px;
     width: fit-content;
     text-align: center;
@@ -18,15 +17,18 @@
   &.success{
     p{
       background-color: #00ff0070;
-      color: #000000;
+      color: #228711;
+      font-size: 11px;
+      font-weight: 400;
+      padding: 3px 21px 3px 15px;
 
       &:before{
         content: '\2714';
         position: absolute;
-        height: 20px;
-        width: 20px;
-        right: 10px;
-        top: 7px;
+        height: 18px;
+        width: 18px;
+        right: 3px;
+        top: 3px;
         z-index: 1;
         color: #228711;
       }
@@ -36,14 +38,18 @@
     p{
       background-color: #FF000070;
       color: #ff0000;
+      font-size: 11px;
+      font-weight: 400;
+      line-height: 1.5em;
+      padding: 3px 25px 3px 27px;
 
       &:before {
-        content: url("../images/cross-red.png");
+        content: url("../images/icons/cross-red.png");
         position: absolute;
-        height: 20px;
-        width: 20px;
+        height: 10px;
+        width: 10px;
         right: 10px;
-        top: 7px;
+        top: 6px;
         z-index: 1;
       }
     }
@@ -51,6 +57,52 @@
 }
 
 .main-section {
+
+  .main-content {
+    padding-top: 9px;
+    .main-content-head {
+      h2 {
+        font-size: 20px;
+        font-weight: 700;
+        margin-bottom: 0;
+        &:first-child {
+          color: #143964;
+        }
+        &:last-child {
+          color: #0089BC;
+        }
+      }
+    }
+    .content-head-inner {
+
+      img {
+        height: 112px;
+        width: 112px;
+        margin-bottom: 12px;
+      }
+      h5 {
+        font-size: 9px;
+        font-weight: 400;
+        margin-bottom: 0;
+      }
+      h4 {
+        font-size: 10px;
+        font-weight: 400;
+        margin-bottom: 0;
+      }
+      h3 {
+        font-size: 12px;
+        font-weight: 400;
+      }
+      h2 {
+        font-size: 20px;
+        font-weight: 700;
+        color: #0089BC;
+      }
+      
+    }
+
+  }
 
   .text-danger {
     color: #FF3700;
@@ -77,6 +129,7 @@
   .main-button {
     margin-bottom: 25px;
   }
+
 }
 
 
@@ -111,7 +164,7 @@
       &::after {
         content: "";
         position: absolute;
-        background-image: url("../images/Vector.png");
+        background-image: url("../images/icons/Vector.png");
         background-repeat: no-repeat;
         height: 26px;
         width: 26px;
@@ -150,13 +203,15 @@
 
 .tables-container{
   position: relative;
+  max-width: 375px;
+  margin: 0 auto;
 }
 
 .table-content {
   padding-top: 15px;
 
   p {
-    font-size: 18px;
+    font-size: 14px;
     font-weight: 400;
     color: #000000;
     line-height: 1.7rem;

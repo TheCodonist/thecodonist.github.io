@@ -1,15 +1,18 @@
-var $container = $('.step');
-var $p = $container.find('p');
+var $container = $(".step");
+var $p = $container.find("p");
 var currentIndex = 0;
 
-$p.on('click', function (e) {
+$p.on("click", function (e) {
   var $current = $(e.currentTarget);
   var index = $p.index($current);
   if (index > currentIndex) {
-  	$container.addClass('forward');
+    $container.addClass("forward");
   } else {
-    $container.removeClass('forward');
+    $container.removeClass("forward");
   }
   currentIndex = index;
-  $container.attr('data-step', index);
+  $container.attr("data-step", index);
 });
+
+// Map
+

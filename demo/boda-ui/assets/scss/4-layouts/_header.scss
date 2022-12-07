@@ -11,11 +11,13 @@
     font-size: 18px;
     font-weight: 700;
     margin-bottom: 0;
+    font-family: 'Poppins', sans-serif;
   }
   h6.title{
     font-size: 10px;
     font-weight: 400;
     margin-bottom: 3px;
+    font-family: 'Poppins', sans-serif;
   }
 
   .header-inner{
@@ -40,15 +42,15 @@
       outline: none;
       border: none;
       img {
-        height: 28px;
-        width: 28px;
+        height: 22px;
+        width: 22px;
       }
     }
 
     p {
-      color: #888888;
-      font-size: 12px;
-      font-weight: 300;
+      color: #BBBBBB;
+      font-size: 9px;
+      font-weight: 400;
       margin-bottom: 0;
     }
   }

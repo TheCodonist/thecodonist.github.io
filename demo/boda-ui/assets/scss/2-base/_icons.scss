@@ -9,7 +9,7 @@
 }
 
 i {
-  &[class*="h-icon-"] {
+  &[class*="icon-"] {
     display: inline-block;
     background-repeat: no-repeat;
     background-position: 0 0;
@@ -19,7 +19,13 @@ i {
 $icons: (
   "facebook" "svg" 10px 10px,
   "twitter" "png" 20px 20px,
-  "linkedin" "svg" ""
+  "linkedin" "svg" 20px 20px,
+  "back" "svg" 22px 22px,
+  "mail" "svg" 31px 31px,
+  "calender" "svg" 36px 40px,
+  "heart" "svg" 24px 20px,
+  "arrow" "svg" 16px 26px,
+  "vector" "svg" 20px 27px,
 );
 
 @each $name, $fileType, $width, $height in $icons {
