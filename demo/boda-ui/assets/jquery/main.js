@@ -14,5 +14,10 @@ $p.on("click", function (e) {
   $container.attr("data-step", index);
 });
 
-// Map
+
+// Slick version 1.5.8
+
+
+
+
 

@@ -14,6 +14,11 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Noto+Sans+Hebrew:wght@100;200;300;400;500;600;700;800;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
         rel="stylesheet">
+
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick-theme.css" />
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.8/slick.min.css'>
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.8/slick-theme.min.css'>
     <link rel="stylesheet" href="assets/css/main.css">
     <title>Menu</title>
 </head>
@@ -25,20 +30,187 @@
             <div class="header-inner">
                 <div class="header-right">
                     <h6 class="title">החתונה של איציק & מיקה</h6>
-                    <h2 class="title">האולם, דרכי הגעה וניווט</h2>
+                    <h2 class="title">בחירת מנות מועדפות</h2>
                 </div>
                 <div class="header-left">
-                    <button><img src="./assets/images/icons/back-button.svg" alt=""></button>
-                    <p>חזרה</p>
+                    <button><a href="#dish-warning-popup"><img src="./assets/images/icons/back-gray-button.svg"
+                                alt=""></a></button>
+                    <p>סיימתי</p>
                 </div>
             </div>
         </div>
     </header>
 
+    <div id="dish-warning-popup" class="warning-overlay">
+        <div class="seat-warning-popup">
+            <a class="close" href="#"><img src="./assets/images/icons/close-btn.svg" alt="close-btn"></a>
+            <h2>עדיין לא,</h2>
+            <p>יש לבחור את מקומות הישיבה
+                לכל האורחים: שולחן וכסא.</p>
+            <p>שים לב: <br>
+                ניתן להוסיף אורחים נוספים,
+                שיגיעו איתך לאירוע.</p>
+            <div>
+                <a href="" class="link">חזרה לבחירת המנות</a>
+            </div>
+        </div>
+    </div>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-        crossorigin="anonymous"></script>
+    <section class="menu-content">
+        <div class="container">
+
+            <div class="menu-discription">
+                <p>לפניך מוצגים תפריטי ומנות האירוע.
+                    יש לבחור את המנות המועדפות, אותן תרצה להזמין ואשר יוגשו לך באירוע:</p>
+            </div>
+
+            <div class="menu-slider">
+                <h2>קבלת פנים</h2>
+                <div class="carousel">
+                    <div>
+                        <div class="choose-dish">
+                            <button>
+                                <p>מבחר סושי צמחוני</p>
+                                <img src="./assets/images/icons/gray-heart.svg" alt="">
+                            </button>
+                        </div><img src="./assets/images/menu1.svg">
+                    </div>
+                    <div>
+                        <div class="choose-dish">
+                            <button>
+                                <p>מבחר סושי צמחוני</p>
+                                <img src="./assets/images/icons/gray-heart.svg" alt="">
+                            </button>
+                        </div><img src="./assets/images/menu1.svg">
+                    </div>
+                    <div>
+                        <div class="choose-dish">
+                            <button>
+                                <p>מבחר סושי צמחוני</p>
+                                <img src="./assets/images/icons/gray-heart.svg" alt="">
+                            </button>
+                        </div><img src="./assets/images/menu1.svg">
+                    </div>
+                    <div>
+                        <div class="choose-dish">
+                            <button>
+                                <p>מבחר סושי צמחוני</p>
+                                <img src="./assets/images/icons/gray-heart.svg" alt="">
+                            </button>
+                        </div><img src="./assets/images/menu1.svg">
+                    </div>
+                    <div>
+                        <div class="choose-dish">
+                            <button>
+                                <p>מבחר סושי צמחוני</p>
+                                <img src="./assets/images/icons/gray-heart.svg" alt="">
+                            </button>
+                        </div>
+                        <img src="./assets/images/menu1.svg">
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="menu-slider">
+                <h2>מנה עקרית</h2>
+                <div class="carousel">
+                    <div>
+                        <div class="choose-dish">
+                            <button>
+                                <p>מבחר סושי צמחוני</p>
+                                <img src="./assets/images/icons/red-heart.svg" alt="">
+                            </button>
+                        </div><img src="./assets/images/menu2.svg">
+                    </div>
+                    <div>
+                        <div class="choose-dish">
+                            <button>
+                                <p>מבחר סושי צמחוני</p>
+                                <img src="./assets/images/icons/red-heart.svg" alt="">
+                            </button>
+                        </div><img src="./assets/images/menu2.svg">
+                    </div>
+                    <div>
+                        <div class="choose-dish">
+                            <button>
+                                <p>מבחר סושי צמחוני</p>
+                                <img src="./assets/images/icons/red-heart.svg" alt="">
+                            </button>
+                        </div><img src="./assets/images/menu2.svg">
+                    </div>
+                    <div>
+                        <div class="choose-dish">
+                            <button>
+                                <p>מבחר סושי צמחוני</p>
+                                <img src="./assets/images/icons/red-heart.svg" alt="">
+                            </button>
+                        </div><img src="./assets/images/menu2.svg">
+                    </div>
+                    <div>
+                        <div class="choose-dish">
+                            <button>
+                                <p>מבחר סושי צמחוני</p>
+                                <img src="./assets/images/icons/red-heart.svg" alt="">
+                            </button>
+                        </div>
+                        <img src="./assets/images/menu2.svg">
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+
+
+    <section class="drawer">
+        <div class="drawer-top">
+            <a class="btn-right" href="#">מקומות ישיבה שנבחרו:</a>
+            <a class="btn-left" href="#">+ אורח</a>
+        </div>
+        <div class="drawer-body">
+            <div class="container">
+                <table>
+                    <tr>
+                        <th>שם האורח</th>
+                        <th>שולחן</th>
+                        <th>כסא</th>
+                        <th>מחק</th>
+                    </tr>
+                    <tr>
+                        <td>רון בן טאטא</td>
+                        <td>-</td>
+                        <td>-</td>
+                        <td><i class="icon-cross-red"></i></td>
+                    </tr>
+                    <tr>
+                        <td>רם מועלם</td>
+                        <td>-</td>
+                        <td>-</td>
+                        <td><i class="icon-cross-red"></i></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <script src='//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.8/slick.min.js'></script>
+    <script src="./assets/jquery/main.js"></script>
+
+    <script>
+        $('.carousel').slick({
+            centerMode: true,
+            centerPadding: '23px',
+            slidesToShow: 1,
+            rtl: true,
+            arrows: false,
+            dots: false,
+            swipeToSlide: true
+        });
+    </script>
 </body>
 
 </html>

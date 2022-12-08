@@ -5,7 +5,6 @@
   text-align: center;
   padding: 10px 0;
   p {
-    
     border-radius: 20px;
     width: fit-content;
     text-align: center;
@@ -14,16 +13,16 @@
     z-index: -1;
   }
 
-  &.success{
-    p{
+  &.success {
+    p {
       background-color: #00ff0070;
       color: #228711;
       font-size: 11px;
       font-weight: 400;
       padding: 3px 21px 3px 15px;
 
-      &:before{
-        content: '\2714';
+      &:before {
+        content: "\2714";
         position: absolute;
         height: 18px;
         width: 18px;
@@ -34,9 +33,9 @@
       }
     }
   }
-  &.danger{
-    p{
-      background-color: #FF000070;
+  &.danger {
+    p {
+      background-color: #ff000070;
       color: #ff0000;
       font-size: 11px;
       font-weight: 400;
@@ -57,7 +56,6 @@
 }
 
 .main-section {
-
   .main-content {
     padding-top: 9px;
     .main-content-head {
@@ -69,12 +67,11 @@
           color: #143964;
         }
         &:last-child {
-          color: #0089BC;
+          color: #0089bc;
         }
       }
     }
     .content-head-inner {
-
       img {
         height: 112px;
         width: 112px;
@@ -97,15 +94,13 @@
       h2 {
         font-size: 20px;
         font-weight: 700;
-        color: #0089BC;
+        color: #0089bc;
       }
-      
     }
-
   }
 
   .text-danger {
-    color: #FF3700;
+    color: #ff3700;
     font-weight: 400;
     margin-top: 10px;
   }
@@ -129,48 +124,48 @@
   .main-button {
     margin-bottom: 25px;
   }
-
 }
 
-
-
 .home-modal {
-  padding-bottom: 20px;
   .modal-body {
-    padding-bottom: 0;
+    padding: 20px 20px;
     h2 {
-      color: $global;
-      font-size: 24px;
+      color: #143964;
+      font-size: 18px;
       font-weight: 700;
+      margin-bottom: 21px;
     }
     p {
       color: #636363;
-      font-size: 18px;
+      font-size: 14px;
       font-weight: 400;
       line-height: 1.7;
-      margin-bottom: 22px;
-      margin-top: 25px;
+      margin-bottom: 20px;
     }
-    .reminder {
-      background-color: #143963;
-      color: #ffffff;
-      padding: 12px;
-      padding-left: 40px;
-      margin-bottom: 42px;
-      border-radius: 10px;
-      text-decoration: none;
-      position: relative;
-      font-size: 20px;
-      &::after {
-        content: "";
-        position: absolute;
-        background-image: url("../images/icons/Vector.png");
-        background-repeat: no-repeat;
-        height: 26px;
-        width: 26px;
-        left: -20px;
-        top: 11px;
-        z-index: 999;
+    div {
+      text-align: center;
+      margin-bottom: 20px;
+      .reminder {
+        background-color: #143963;
+        color: #ffffff;
+        padding: 12px;
+        padding-left: 40px;
+        border-radius: 10px;
+        text-decoration: none;
+        position: relative;
+        font-size: 14px;
+        font-weight: 400;
+        &::after {
+          content: "";
+          position: absolute;
+          background-image: url("../images/icons/small-arrow-btn.svg");
+          background-repeat: no-repeat;
+          height: 17px;
+          width: 26px;
+          left: 12px;
+          top: 14px;
+          z-index: 999;
+        }
       }
     }
   }
@@ -183,7 +178,7 @@
     border-radius: 50px;
     color: #143964;
     opacity: 1;
-    border: 1px solid #FFFFFF;
+    border: 1px solid #ffffff;
     width: 28px;
     height: 28px;
   }
@@ -197,11 +192,14 @@
     margin-bottom: 20px;
     border-radius: 10px;
   }
+  .modal-dialog {
+    margin: 0 20px !important;
+  }
 }
 
 // reserve-table
 
-.tables-container{
+.tables-container {
   position: relative;
   max-width: 375px;
   margin: 0 auto;
@@ -217,7 +215,7 @@
     line-height: 1.7rem;
   }
 
-  .stage{
+  .stage {
     background-color: #d9d9d9;
     padding: 10px;
     border-radius: 1px;
@@ -229,7 +227,7 @@
     line-height: 1.4em;
     display: flex;
     align-items: center;
-    p{
+    p {
       color: #aaaaaa;
       margin-bottom: 0;
       text-align: center;

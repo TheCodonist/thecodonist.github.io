@@ -1,0 +1,80 @@
+.add-guest-overlay {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.7);
+    transition: opacity 500ms;
+    visibility: hidden;
+    opacity: 0;
+    &:target {
+      visibility: visible;
+      opacity: 1;
+    }
+  }
+
+  .add-guest-popup {
+    font-family: "Poppins", sans-serif;
+    margin: 70px auto;
+    padding: 23px 17px 36px;
+    background: #fff;
+    border-radius: 3px;
+    width: 224px;
+    position: relative;
+    font-family: "Poppins", sans-serif;
+    // top: 50%;
+    // left: 50%;
+    // transform: translate(-50%, -50%);
+    .close {
+      position: absolute;
+      top: -13px;
+      right: -13px;
+      img {
+        width: 28px;
+        height: 28px;
+      }
+    }
+    h2 {
+        font-size: 18px;
+        font-weight: 700;
+        color: #143964;
+        line-height: 27px;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    p {
+        font-size: 14px;
+        font-weight: 400;
+        color: #636363;
+        margin-bottom: 19px;
+    }
+    input {
+        width: 100%;
+    }
+    .seating-popup-btns {
+        display: flex;
+        justify-content: space-between;
+        padding-top: 26px;
+        button {
+          font-size: 14px;
+          font-weight: 400;
+          line-height: 21px;
+          border: none;
+          outline: none;
+        }
+        .submit-btn {
+          background-color: #143963;
+          border-radius: 4px;
+          color: #ffffff;
+          width: 69px;
+          height: 33px;
+        }
+        .close-btn {
+          color: #143963;
+          text-decoration: underline;
+          background-color: transparent;
+        }
+      }
+
+  }  
