@@ -1,0 +1,132 @@
+.map-container{
+    position: relative;
+}
+
+#map{
+    width: 100%;
+    height: auto;
+}
+/*  */
+
+.btn-visit{
+    background-color: green;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+
+.popup{
+    width: 150px;
+    padding: 10px;
+    background-color: white;
+    position: absolute;
+    text-align: center;
+    z-index: 1;
+    bottom: calc(100% + 8px);
+    left: 0%;
+    display: none;
+    cursor: default;
+    transform: translateX(-25%)
+}
+.popup::after{
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -7px;
+    border-width: 8px;
+    border-style: solid;
+    border-color: white transparent transparent transparent;
+}
+.popup .title{
+    font-size: 18px;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+.location.active{
+    z-index: 10;
+}
+.location.active .popup{
+    display: block;
+}
+
+.location{
+    position: absolute;
+    cursor: pointer;
+    z-index: 1;
+}
+.location1{
+    width: 9%;
+    height: 7%;
+    left: 4%;
+    top: 45%;
+}
+
+/* second */
+.location2{
+    width: 7%;
+    height: 9%;
+    right: 2%;
+    top: 55%;
+}
+
+/* Third */
+.location3{
+    width: 7%;
+    right: 9.6%;
+    top: 61%;
+    height: 6%;
+}
+/* four */
+.location4{
+    width: 9%;
+    height: 5%;
+    right: 19%;
+    top: 64%;
+}
+/* five */
+.location5{
+    width: 8%;
+    height: 7%;
+    right: 17%;
+    top: 56%;
+}
+/* six */
+.location6{
+    width: 9%;
+    right: 11%;
+    top: 42%;
+    height: 8%;
+}
+/* seven */
+.location7{
+    width: 12%;
+    right: 18%;
+    top: 35%;
+    height: 7%;
+}
+/* eight */
+.location8{
+    width: 8%;
+    right: 34%;
+    top: 55%;
+    height: 9%;
+}
+/* nine */
+.location9{
+    width: 10%;
+    right: 33%;
+    top: 40%;
+    height: 8%;
+}
+/* ten */
+.location10{
+    width: 8%;
+    right: 35%;
+    top: 25%;
+    height: 6%;
+}
