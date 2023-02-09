@@ -1,0 +1,130 @@
+[
+	{
+		"articles": {
+			"1": {
+				"title": "Partnership Offers By-the-seat New York to Miami Flights",
+				"source": "Aviation International News",
+				"date": "Dec 09, 2022",
+				"writer": "Jerry Siebenmark",
+				"url": "1-partnership-by-the-seat-new-york-miami-flights",
+				"more": [4,10,6],
+				"seo-title":"Partnership Offers By-the-seat New York to Miami Flights",
+				"seo-desc": "Imperium Jets platform enables private jet operators to fill empty seats and boost revenue through distribution partner networks"
+			},
+			"2": {
+				"title": "By-the-seat New York-To-Miami Charter Available",
+				"source": "Business Jet Traveler",
+				"date": "Dec 03, 2022",
+				"writer": "Jerry Siebenmark",
+				"url": "2-by-the-seat-new-york-miami-charter",
+				"more": [9,5,7],
+				"seo-title":"By-the-seat New York-To-Miami Charter Available",
+				"seo-desc": "Imperium Jets is collaborating with charter provider Flying Zebra to offer by-the-seat options on its Pilatus PC-12 turboprops for flights between Miami and New York"
+			},
+			"3": {
+				"title": "Flying Zebra partners with Imperium Jets to give public access to charters",
+				"source": "Corporate Jet Investor",
+				"date": "Nov 17, 2022",
+				"writer": "Megan Kelly",
+				"url": "3-flying-zebra-imperium-jets-public-access-charters",
+				"more": [8,2,5],
+				"seo-title":"Flying Zebra partners with Imperium Jets to give public access to charters",
+				"seo-desc": "Private charter company Flying Zebra has partnered with aviation technology platform Imperium Jets to offer private by-the-seat flights between New York and Miami"
+			},
+			"4": {
+				"title": "Seat selling a priority for Imperium partner",
+				"source": "Business Air News",
+				"date": "Sep 23, 2022",
+				"writer": "Business Air News",
+				"url": "4-seat-selling-imperium-partner",
+				"more": [6,9,2],
+				"seo-title":"Seat selling a priority for Imperium partner",
+				"seo-desc": "Flitestar is to distribute and sell Imperium Jet's empty leg and by-the-seat content, supporting the platform in its mission to help operators turn white spaces into profits."
+			},
+			"5": {
+				"title": "Flying Zebra takes on tech boost for trans-US service",
+				"source": "Business Air News",
+				"date": "Nov 21, 2022",
+				"writer": "Business Air News",
+				"url": "5-flying-zebra-tech-boost",
+				"more": [1,3,8],
+				"seo-title":"Flying Zebra takes on tech boost for trans-US service",
+				"seo-desc": "In a collaboration with Imperium Jets, Flying Zebra is opening up book-by-the-seat flights on its PC-12s between New York and Miami, boosting utilisation of its 11-strong fleet"
+			},
+			"6": {
+				"title": "Imperium Jets partners with Flying Zebra to expand access to private aviation",
+				"source": "Business Airport International",
+				"date": "Nov 18, 2022",
+				"writer": "Paige Smith",
+				"url": "6-imperium-jets-partners-flying-zebra",
+				"more": [5,10,2],
+				"seo-title":"Imperium Jets partners with Flying Zebra to expand access to private aviation",
+				"seo-desc": "Imperium Jets, a platform designed to open business aviation to the public, has announced a new partnership with Flying Zebra, a private air charter service"
+			},
+			"7": {
+				"title": "A New Solution for Private Jets",
+				"source": "Dj's Aviation Podcast",
+				"date": "Oct 18, 2022",
+				"writer": "Dj's Aviation Podcast",
+				"url": "7-new-solution-private-jets",
+				"more": [4,6,9],
+				"seo-title":"New Solution for Private Jets by Imperium Jets",
+				"seo-desc": "Explore the current state of private aviation, how expanding quickly could have negative implications and why Imperium Jets see success"
+			},
+			"8": {
+				"title": "Imperium Jets Is About To Change Private Flight Bookings",
+				"source": "Live and Let's Fly",
+				"date": "Sep 04, 2022",
+				"writer": "Kyle Stewart",
+				"url": "8-imperium-jets-change-private-flight-bookings",
+				"more": [3,7,10],
+				"seo-title":"Imperium Jets Is About To Change Private Flight Bookings",
+				"seo-desc": "Booking service is about to change how we book private jets, and how owners sell seats"
+			},
+			"9": {
+				"title": "Imperium Jets Partners with Flitestar to Expand Possibilities for Private Aviation",
+				"source": "Charter Broker",
+				"date": "Sep 16, 2022",
+				"writer": "Charter Broker",
+				"url": "9-imperium-jets-partners-flitestar",
+				"more": [2,5,8],
+				"seo-title":"Imperium Jets Partners with Flitestar to Expand Possibilities for Private Aviation",
+				"seo-desc": "Imperium Jets partners with Flitestar to help operators turn white spaces into profits and empower travel sellers and passengers"
+			},
+			"10": {
+				"title": "Imperium Jet promises by-the-seat New York-Miami flights",
+				"source": "Private Jet Card Comparisons",
+				"date": "Dec 23, 2022",
+				"writer": "Private Jet Card",
+				"url": "10-imperium-jets-by-the-seat-new-york-miami-flights",
+				"more": [1,4,8],
+				"seo-title":"Imperium Jet promises by-the-seat New York-Miami flights",
+				"seo-desc": "Partnership with Flying Zebra is a revolution within the aviation industry"
+			},
+			"11": {
+				"title": "How to choose the right broker for your private jet rental?",
+				"source": "",
+				"date": "",
+				"writer": "",
+				"url": "11-choose-broker-private-jet-rental",
+				"more": [12],
+				"seo-title":"How to choose the right broker for your private jet rental",
+				"seo-desc": "Book a private jet, find the right charter broker - the right way"
+			},
+			"12": {
+				"title": "Charter private jets flights - Broker vs Operator",
+				"source": "",
+				"date": "",
+				"writer": "",
+				"url": "12-charter-private-jets-flights-broker-operator",
+				"more": [11],
+				"seo-title":"Charter private jets flights - Broker vs Operator",
+				"seo-desc": "Discover the top 5 reasons why working with a private jets broker is a choice that should be taken into consideration"
+			}
+		},
+		"links": {
+			"news": [1,2,3,4,5,6,7,8,9,10],
+			"blog": [11,12]
+		}
+	}
+]
